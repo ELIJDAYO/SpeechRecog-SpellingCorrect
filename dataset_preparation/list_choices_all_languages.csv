@@ -1,0 +1,3217 @@
+TRACKER,MADE A COPY TO SERVE AS A CHECK LIST [COPY AS OF 10/03/2023 10:11AM,,,,,,,,,,,
+Not Done - 2,Cells for questions that are still incomplete are shaded red.,,Make sure to apply corrections from this checklist before applying corrections from other checklists!                           ,,,,,,,,,
+Done - 441,,,,,,,,,,,,
+No Key - 31,,,,,,,,,,,,
+Status,Location in Database,,Item #,Statement Type (Question/Reply),English,Filipino,,,Cebuano,Actual in the DB,Cebuano (fill in the blanks),firestore document name
+,Collection,Document,,,,Version 1,Version 2,Version 3,Version 1,,,
+Done,allergy-module,allergy-confirmation,1,Question,Do you have an allergy with _____?,May allergy ka ba sa _____?,Allergic ka ba sa ____?,Allergic ka ba sa _____?,Alerdyik ba ka ug _____?,,"balahibo sa mananap
+abog
+pagkaon
+tambal
+polen",confirm-allergy-x
+Done,,,,Reply,"1. Yes
+2. No","1. Meron
+2. Wala",,1. Oo     2. Hindi,1. Oo     2. Dili,,,
+Done,,animal-type,2,Question,Which animal fur are you allergic to?,Sa anong balahibo ng hayop ka allergic?,Sa balahibo ng aling hayop ka allergic?,Sa anong hayop na may balahibo ka allergic?,Sa unsa na mananap nga naay balhibo ka alerdyik?,,,get-animal
+Done,,,,Reply,"1. Cat
+2. Dog","1. Pusa
+2. Aso",,"1. Pusa
+2. Aso","1. Iring
+2. Iro",,,
+Done,,drug-what,3,Question,Which medicines are these?,Aling mga gamot ito?,,Alin sa mga gamot na ito?,Unsa ang imong gitambal sa imong alerdyi?,,,get-drug
+Done,,,,Reply,"1. Aspirin
+2. Antibiotics","1. Aspirin
+2. Antibiotics",,"1. Aspirin
+2. Antibiotics","1. Aspirin
+2. Antibiotics",,,
+Done,,food-type,4,Question,Which food are you allergic to?,Saang pagkain ka allergic?,,Alin sa mga pagkain ka allergic?,Sa unsang klase sa pagkaon ka adunay alerdyi?,,,get-food-type
+Done,,,,Reply,"1. Nuts
+2. Dairy
+3. Eggs
+4. Seafood
+5. Others","1. Mani
+2. Gatas
+3. Itlog
+4. Pagkaing dagat
+5. Iba pa",,"1. Mani
+2. Gatas
+3. Itlog
+4. Hipon
+5. Iba pa ....     6. Wala ","1. Mani
+2. Gatas
+3. Itlog
+4. Pagkaon gikan sa dagat
+5. Uban pa",,,
+Done,,interventions-meds,5,Question,What did you do to relieve the symptoms?,Anong mga ginawa mo para marelieve ang iyong pakiramdam?,,Anong ginagawa mo para bumuting pakiramdam ng katawan mo?,Unsa imong ginabuhat para maayo ang mga sintomas sa alerdyi?,,,get-medicine-remedy
+Done,,,,Reply,"1. Liniment
+2. Stayed away from the allergens
+3. Other interventions","1. Pamahid
+2. Lumayo sa mga allergens
+3. Iba pang interbensyon","1. Pamahid
+2. Umiwas sa mga allergen
+3. Iba pang interbensyon","1. May ipinapahid ako
+2. Iniiwasan ang bagay na allergic ako 
+3. Sinusubukan ang ibang paraan","1. Aduna koy gipahid
+2. Molikay ko ug mga butang na alerdyic ko
+3. Mosuway ko ug lain nga paagi",,,
+Done,,side-effect,6,Question,What side effects do you feel?,Anong side effect ang nararamdaman mo?,,Anong nangyayari kapag umaatakeng allergy mo?,Unsay mahitabo kung mo-andar imong alerdyi?,,,get-allergy-symptom
+Done,,,,Reply,"1. Difficulty breathing
+2. Rashes
+3. Itching
+4. Swelling
+5. Redness
+6. Sneezing
+7. Runny nose
+8. Cough
+9. Fatigue
+10. Headache
+11. Nausea and vomiting","1. Hirap sa paghinga
+2. Pamamantal
+3. Pangangati
+4. Pamamaga
+5. Pamumula
+6. Pagbahing
+7. Tumutulong sipon
+8. Ubo
+9. Pagod
+10. Sakit sa ulo
+11. Pagduduwal at pagsusuka",,"1. Nahihirapang huminga
+2. Namamantal
+3. Nangangati
+4. Namamaga
+5. Namumula
+6. Nababahing
+7. Sinisipon
+8. Inuubo
+9. Nanlalambot/ Napapagod
+10. Nanakit ang ulo
+11. Naduduwal at/o nasusuka","1. Maglisod ug ginhawa
+2. Magpuwa-puwa
+3. Mangatol
+4. Maghubag
+5. Mamuwa
+6. Maghatsing
+7. Sipon-non
+8. Ubo-hon
+9. Kapoyan / Bug-at ang lawas
+10. Sakit ang ulo
+11. Kasukaon or mosuka ko",,,
+Db diff,,side-effect-duration,7,Question,How long does the side effect last?,Gaano katagal ang side effect na ito?,Gaano katagal mong nararamdaman ang side effect na ito?,Gaano katagal mo naranasan ang epekto ng allergy sa katawan mo? ,Unsay gidugayon na imong masinati ang epekto sa alerdyi sa imong lawas?,Unsay kadugayon ni nimo nabati,,get-allergy-symptom-duration
+Db diff,,,,Reply,"1. Hours
+2. Days
+3. Weeks
+4. Month
+5. More than a month","1. Oras
+2. Mga ilang araw
+3. Linggo
+4. Buwan
+5. Mahigit isang buwan",,"1. Ilang oras 
+2. Ilang araw
+3. Ilang Linggo
+4. Isang buwan
+5. Lagpas isang buwan","1. Pipila ka oras
+2. Pipila ka adlaw
+3. Pipila ka semana
+4. Usa ka buwan
+5. Lapas usa ka buwan","1. Wala pay 8 ka oras
+2. Lapas na sa 8 oras
+3. Lapas na sa 1 ka adlaw
+4. Lapas na sa 3 ka adlaw
+5. Lapas na sa 1 ka semana
+6. Lagpas na sa 2 ka semana",,
+Db diff,,symptoms-relieved,8,Question,Were the symptoms relieved?,Na-relieve ba ang mga sintomas?,Napaginhawa ba ang mga sintomas?,Nawala/ nabawasan bang epekto ng allergy sa katawan mo? ,Nawala/ nakuhaan ba ang epekto ng alerdyi sa imong lawas?,Nawala ba ang imong gipamati?,,confirm-symptom-relief
+Db diff,,,,Reply,"1. Yes
+2. No","1. Oo
+2. Hindi",,"1. Oo
+2. Medyo  3. Hindi","1. Oo
+2. Basin / Mura
+3. Dili ","1. Oo
+2. Dili",,
+Db diff,buto-and-muscle-module,buto-x-causes,9,Question,What is the cause of the pain in your muscles?,Ano ang sanhi sa pananakit ng iyong mga kalamnan?,Ano ang sanhi ng pananakit ng iyong mga kalamnan?,Bakit masakit ang mga kalamnan mo?,Nganong nagsakit man ang imong lawas?,NOT USED,,N/A
+Db diff,,,,Reply,"1. Excessive exercise
+2. Trauma/Injury
+3. Pre-existing condition
+4. Fever
+5. I do not know","1. Labis na ehersisyo
+2. Trauma/Injury
+3. Pre-existing na kondisyon
+4. Lagnat
+5. Hindi ko alam","1. Labis na ehersisyo
+2. Trauma/Injury
+3. Dati pang kondisyon
+4. Lagnat
+5. Hindi ko alam","1. Napasobra ng ehersisyo
+2. Nabugbog/ nabunggo
+3. May dati ng sakit
+4. Nilalagnat
+5. Hindi alam","1. Nasobrahan ug exercise
+2. Napakong or naigo
+3. Sakit na daan
+4. Gihilantan ko
+5. Wala ko kahibalo",NOT USED,,N/A
+Done,,buto-x-confirmation,10,Question,Do you feel any pain in your body while ____?,Mayroon ka bang nararamdamang sakit sa iyong katawan habang _____?,,May masakit/ makirot ba sa katawan mo kapag ----?  ,Aduna ba kay nabati nga kasakit sa imong lawas kung mag _________?,,"1. nagdagan?
+2. naglingkod sa dugay nga panahon?
+3. paglakaw?",confirm-bone-pain-x
+Db diff,,,,Reply,"1. Yes, there is
+2. None
+3. I do not know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Oo, meron
+2. Wala naman
+3. Hindi ko alam","1. Oo, aduna
+2. Wala ra
+3. Wala ko kahibalo",3. Wala ko kahinumdum,,
+No Key,,buto-x-doestakemeds,11,Question,Have you taken any medication for this?,Nakainom ka ba ng anumang gamot para dito?,,May ininom ka bang gamot para rito?,Naa ba kay giinom na tambal para ani?,,,
+No Key,,,,Reply,"1. Yes
+2. No
+3. I forgot
+4. I do not know","1. Oo
+2. Hindi
+3. Hindi ko maalala
+4. Hindi ko alam",,"1. Meron
+2. Wala pa
+3. Hindi ako sigurado
+4. Hindi ko alam","1. Naa
+2. Wala pa
+3. Dili ko sigurado
+4. Wala ko kahibalo",,,
+Done,,buto-x-duration,12,Question,How long have you experienced the pain?,Gaano katagal mo naranasan ang sakit?,,Gaano katagal na itong sumasakit?,Unsa na ang gidugayon nga nag-sakit ni?,,,get-bone-pain-duration
+Db diff,,,,Reply,"1. Less than a minute
+2. 1 to 10 minutes
+3. 11 to 20 minutes
+4. More than 20 minutes
+5. I do not know","1. Wala pang 1 minuto
+2. 1 hanggang 10 minuto
+3. 11 hanggang 20 minuto
+4. Higit sa 20 minuto
+5. Hindi ko alam",,"1.  wala pang 1 minuto
+2.  1 - 10 minuto
+3.  11- 20 minuto
+4.  lagpas 20 minuto
+5.  hindi napansin ang oras","1.  wala pay 1 ka minuto
+2.  1 - 10 ka minuto
+3.  11- 20 ka minuto
+4.  lagpas 20 minutos
+5.  wala ko kabantay sa oras","1. Wala pay 8 ka oras
+2. Lapas na sa 8 oras
+3. Lapas na sa 1 ka adlaw
+4. Lapas na sa 3 ka adlaw
+5. Lapas na sa 1 ka semana
+6. Lagpas na sa 2 ka semana",,
+Done,,buto-x-lessenorstopped,13,Question,Did you feel relieved after drinking them?,Nawala o naibsan ba ang iyong naramdaman pagkatapos inumin ang mga ito?,,Bumuti bang pakiramdam mo pagkatapos itong inumin?,Nahuwasan ba ang imong pamati paghuman nimo ug inum?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. A little bit","1. Oo
+2. Hindi
+3. Medyo",,"1. Oo
+2. Medyo
+3. Hindi","1. Oo
+2. Basin / Mura
+3. Dili ",,,
+No Key,,buto-x-medtimes,14,Question,How many times have you taken the medication?,Ilang beses mo nainom ang gamot na ito?,Ilang beses mong nainom ang mga gamot na ito?,Ilang beses kang uminom ng gamot?,Kapila ka mo inom ug tambal?,,,
+No Key,,,,Reply,"1. Once per day
+2. Twice per day
+3. Thrice per day
+4. Once a week
+5. Twice a week
+6. More than twice a week
+7. I do not remember","1. Isa kada araw
+2. Dalawa kada araw
+3. Tatlo kada araw
+4. Isa kada linggo
+5. Dalawa kada linggo
+6. Higit dalawa kada linggo
+7. Hindi ko maalala",,"1. Isang beses/ araw
+2. Dalawang beses/ araw
+3. Tatlong beses/ araw
+4. Isang beses/ linggo
+5. Dalawang beses/ linggo
+6. Lagpas dalawang beses/ linggo
+7. Hindi matandaan","1. Kausa sa usa ka adlaw
+2. Kaduha sa usa ka adlaw
+3. Katulo sa usa ka adlaw
+4. Kausa sa usa ka semana
+5. Kaduha sa usa ka semana
+6. Lapas kaduha sa usa ka semana       7. Wala nako nakahinumdum",,,
+No Key,,buto-x-medicationtype,15,Question,What are these medicines?,Anu-anong mga gamot ito?,,Ano ang mga ininom/ kinain mo?,Unsa ang imong mga giinum o gikaon?,,,
+No Key,,,,Reply,"1. Painkiller medicines
+2. Fruits
+3. Coffee
+4. I cannot remember
+5. Others","1. Mga painkiller na gamot
+2. Mga prutas 
+3. Kape
+4. Wala akong maalala
+5. Iba pa",,"1. tabletang pantanggal ng kirot
+2. kape/ tsaa 
+3. prutas
+4. hindi matandaan
+5. Iba pa","1. tambal pawala sa kasakit
+2. prutas
+3. kape
+4. wala nako nakahinumdum
+5. uban pa",,,
+Done,,buto-x-painintensity,16,Question,"From 1 to 10, 10 is the highest, how do you felt that pain?","Mula 0 hanggang 10, 10 ang pinakamataas, gaano mo naramdaman ang sakit na ito?","Mula 0 hanggang 10, kung saan 10 ang pinakamataas, gaano kasakit?",Gaano kasakit ang nararamdaman mo kung nasa  #10 ang pinakamakirot?,"Unsa ang kasakit nga imong nabati kung mag score tag 1 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,,buto-x-past,17,Question,When was the last time that you had pain?,Kailan yung huling beses na naranasan mo ang sakit?,Kailan ang huling beses na naranasan mo ang sakit?,Kailan mo huling naramdaman na masakit/ makirot?,Kanus a ka katapusang nakabati ug kasakit?,,,
+Done,,,,Reply,"1. Hours ago
+2. Yesterday
+3. More than 2 days ago
+4. Weeks ago
+5. Months ago
+6. Years ago
+7. I do not know","1. Oras na nalipas
+2. Kahapon
+3. Higit dalawang araw
+4. Linggong nakalipas
+5. Buwan na nakalipas
+6. Taong nalipas
+7. Hindi ko alam",,"1. lagpas ng isang oras  
+2. kahapon 
+3. kamakalawa
+4. lagpas isang linggo  
+5. lagpas isang buwan 
+6. lagpas isang taon 
+7. hindi ko matandaan","1. lapas na sa usa ka oras
+2. gahapon
+3. pipila ka adlaw na ang milabay
+4. pipila ka semana na ang milabay
+5. pipila ka buwan na ang milabay
+6. pipila ka tuig na ang milabay
+7. wala nako nakahinumdum",,,
+No Key,,buto-x-present,18,Question,When did you first experience this?,Kailan mo unang naranasan ito?,,Kailan ito nagsimulang sumakit?,Kanus a siya nagsugod ug sakit?,,,
+No Key,,,,Reply,"1. Minutes ago
+2. Hours ago
+3. Yesterday
+4. 1 week ago
+5. More than 1 week ago
+6. I do not know","1. Minutong nakalipas
+2. Oras na nakalipas
+3. Kahapon
+4. 1 linggong nakalipas
+5. Higit 1 linggong nakalipas
+6. Hindi ko alam",,"1. ilang minuto na
+2. lagpas ng isang oras
+3. kahapon 
+4. noong nakaraang linggo 
+5. ilang linggo na
+6. hindi ko matandaan","1. pipila ka minuto na ang milabay
+2. pipila ka oras na ang milabay
+3. gahapon
+4. isa ka semana na ang milabay
+5. pipila ka semana na ang milabay
+6. wala nako nakahinumdum",,,
+No Key,,buto-x-recurring,19,Question,Do you always feel pain while ____?,Palagi mo bang nararamdaman ang sakit habang ____?,Lagi ka bang nakakaramdam ng sakit habang ____?,Palagi ba itong sumasakit/ kumikirot kapag....?,Permi ba siyang mosakit kung _______.,,,
+No Key,,,,Reply,"1. Yes
+2. No
+3. I do not know
+4. Sometimes","1. Oo
+2. Hindi
+3. Hindi ko alam
+4. Minsan",,"1. Oo
+2. Minsan
+3. Hindi naman
+4. Hindi ako sigurado","1. Oo
+2. dili
+3. wala ko kahibalo
+4. usahay",,,
+No Key,,buto-x-reliefactivities,20,Question,What do you do to relieve your pain on ____?,Ano ang ginagawa mo para maibsan ang iyong sakit sa ____?,,Anong ginagawa mo para mabawasan ang kirot/ sakit?,Unsa ang imong gibuhat para makuhaan ang kasakit?,,,
+No Key,,,,Reply,"1. Rest
+2. Sleep
+3. Band-aid","1. Pahinga
+2. Tulog
+3. Band-aid",,"1. Nahihiga/ Nagpapahinga/ Natutulog
+2. Naglalagay ng Band-aid/ pamahid
+3. Nagpapahilot/ Nagpapatawas ","1. Mohigda                                            2. Matulog
+2. Magbutang ug band aid",,,
+Done,"cough-and-cold-
+module",color-phlegm,21,Question,What is the color of the phlegm?,Ano yung kulay ng plema?,Ano ang kulay ng plema?,Ano ang kulay ng plema?,Unsay kolor sa plema?,,,
+Done,,,,Reply,"1. Whitish
+2. Yellowish
+3. Greenish
+4. Brownish
+5. Blood-tinged","1. Puti
+2. Dilaw
+3. Berde
+4. Kayumanggi
+5. May dugo",,"1. maputi
+2. manilaw-nilaw
+3. berdeng-berde
+4. parang kulay tsokolate
+5. may halong dugo","1. Puti
+2. yelo yelo
+3. green
+4. murag tsokolate
+5. murag adunay sagol nga dugo",,,
+Done,,current-temp,21,Question,What is your latest temperature?,Ano po latest temperature ninyo?,Ano ang kasalukuyang temperature mo?,"Mainit bang pakiramdam ng katawan mo, ano ang huli mong temperatura?",Pila ang imong katapusang temperatura?,,,
+Done,,,,Reply,"1. 38
+2. 39
+3. 40
+4. I do not know","1. 38
+2. 39
+3. 40
+4. Hindi ko alam",,"1. 38
+2. 39
+3. 40
+4. Hindi ko alam","1. 38
+2. 39
+3. 40
+4. Wala ko kahibalo",,,
+Done,,does-singa-colds,22,Question,Do you sneeze hard enough?,Sinisingahan mo ba ito?,,Nakasisinga ka ba nang husto?,Makasikma baka ug kusog?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo 
+2. Minsan 
+3. Hindi","1. Oo 
+2. Usahay
+3. Dili",,,
+Done,,does-spit-colds,23,Question,Did you spit it?,Dinudura mo ba ito?,,Naidudura mo ba? ,Maluwa ba nimo?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Minsan 
+3. Hindi","1. Oo
+2. Usahay
+3. Dili",,,
+Done,,does-swallow-phlegm,24,Question,Do you swallow it or not?,Nilulunok ba ito o hindi?,Nilulunok mo ba ito?,Nalulunok mo ba?,Imo ba kining tunlon?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Minsan 
+3. Hindi","1. Oo
+2. Usahay
+3. Dili   ",,,
+Done,,duration-cough,25,Question,How many days since it started?,Nakakailang araw na?,,Gaano na ito katagal?,Unsa nani kadugay nimo nabati?,,,
+Done,,,,Reply,"1. One
+2. Two
+3. Three","1. Isa
+2. Dalawa
+3. Tatlo",,"1. Isang araw
+2. Dalawang araw
+3. Tatlong araw","1. Usa ka adlaw
+2. Duha ka adlaw
+3. Tulo ka adlaw",,Change to duration_units,
+Done,,fever-hashotfeeling,26,Question,Do you feel hot?,Mainit po ba ang pakiramdam ninyo?,Mainit ba ang pakiramdam mo?,Mainit bang pakiramdam ng katawan mo?,Init ba ang imong pamati?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Minsan
+3. Hindi","1. Oo
+2. Usahay
+3. Dili",,,
+Done,,frequent-hascolds,27,Question,Do you get colds easily?,Madalas ka ba siponin?,,Mabilis ka bang mahawa o madaling magkasipon?,Mabilis ka bang mahawa o madaling magkasipon?,cebuano is same with filipino,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Minsan
+3. Hindi","1. Oo
+2. Usahay
+3. Dili",,,
+Done,,frequent-hascough,28,Question,Do you get coughs easily?,Madalas ka bang ubohin?,Madalas ka bang ubuhin?,Madali ka bang mahawa o kaagad inuubo?,Dali raba ka ubhon?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Minsan
+3. Hindi","1. Oo
+2. Usahay
+3. Dili",,,
+Done,,had-seizure,29,Question,Do you have seizures?,Meron ka bang seizures?,Nagkaroon ka ba ng kombulsiyon?,Naranasan mo na bang makombulsiyon?,Nakasuway baka nga nag combulsiyon?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I forgot
+4. I do not know","1. Oo
+2. Hindi
+3. Nalimutan ko
+4. Hindi ko alam",,"1. Oo
+2. Hindi 
+3. Hindi matandaan
+4. Hindi ko alam","1. Oo
+2. Wala
+3. Wala nako kahinumdum
+4. Wala ko kahibalo",,,
+Done,,has-chills,30,Question,Do you have chills?,Meron ka bang chills?,Giniginaw ka ba?,Gininaw o nianlamig ka ba?,Nagkurog kaba sa katugnaw?,filipino typo?,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I forgot
+4. I do not know","1. Oo
+2. Hindi
+3. Nalimutan ko
+4. Hindi ko alam",,"1. Oo
+2. Hindi 
+3. Hindi matandaan
+4. Hindi ko alam","1. Oo
+2. Dili 
+3. Wala nako kahinumdum
+4. Wala ko kahibalo",,,
+Done,,has-cough,31,Question,Do you have ____?,May ____ ka ba?,,Meron ka bang _____? ,Aduna ba kay _____?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Maybe","1. Oo
+2. Hindi
+3. Baka",,"1. Oo
+2. Wala
+3. Hindi sigurado","1. Oo
+2. Wala
+3. dili ko sigurado",,,
+Done,,has-other-feelings,32,Question,Do you want to add anything else?,May iba ka pa bang nararamdaman?,,May iba pa bang masakit/ makirot sa iyo?,Aduna bakay laing gipamati nga sakit?,,,
+Done,,,,Reply,"1. Nope nothing else
+2. I do have but I'm okay overall","1. Wala naman pong iba
+2. Meron pa po pero okay naman po ako",,"1. Wala na
+2. Meron pa pero kaya na ng katawan ko","1. Wala
+2. Oo, pero ok rako",,,
+Done,,has-phlegm,33,Question,Does it come with phlegm or not?,May kasamang plema o tuyo ito?,,May kasama bang plema?,Aduna ba kini kauban na plema?,,,
+Done,,,,Reply,"1. With phlegm
+2. Dry","1. Merong plema
+2. Tuyo",,"1. Oo, may plema.
+2. Walang plema, tuyo.","1. Oo, adunay plema
+2. uga kini",,,
+Done,,has-relief-meds,34,Question,Have you taken any medication for this?,Nakainom ka ba ng anumang gamot para dito?,,May ininom ka na bang gamot para dito?,Aduna ba kay giinum na tambal para niini?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I forgot
+4. I do not know","1. Oo
+2. Hindi
+3. Hindi ko maalala
+4. Hindi ko alam",,"1. Oo
+2. Wala pa
+3. Hindi matandaan
+4. Hindi alam","1. Oo
+2. Wala 
+3. Nakalimot nako
+4. wala ko kahibalo",,,
+Done,,highest-temp,35,Question,What is your highest temperature?,Ano po pinakamataas na temperature ninyo?,Ano ang pinakamataas mong temperature?,Ano ang pinakamataas mong lagnat?,Unsay pinakataas nimo nga hilanat?,,,
+Done,,,,Reply,"1. 38
+2. 39
+3. 40
+4. I do not know","1. 38
+2. 39
+3. 40
+4. Di ko alam",,"1. 38
+2. 39
+3. 40
+4. hindi alam","1. 38
+2. 39
+3. 40
+4. wala ko kahibalo",,,
+Done,,is-fever-onoff,36,Question,Is your fever on and off?,On off ba ang iyong lagnat?,On-and-off ba ang lagnat mo?,Pabalik-balik bang lagnat mo?,Magbalik balik ba ang imong hilanat?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Hindi
+3. Minsan","1. Oo
+2. Dili
+3. Usahay",,,
+Done,,kind-reliefmeds,37,Question,What are these medicines?,Anu-anong mga gamot ito?,,Alam mo ba ang mga gamot na ito?,Nakahibalo baka aning mga tambala?,,,
+Done,,,,Reply,"1. Neozep
+2. Bioflu
+3. Anti histamine
+4. Sambong leaves
+5. Sugar apple
+6. Calamansi
+7. I cannot remember","1. Neozep
+2. Bioflu
+3. Anti histamine
+4. Dahon ng sambong
+5. Atis
+6. Kalamansi
+7. Wala akong maalala","1. Neozep
+2. Bioflu
+3. Anti histamine
+4. Dahon ng sambong
+5. Atis
+6. Kalamansi
+7. Hindi ko maalala","1. Neozep
+2. Bioflu
+3. Antihistamine
+4. Dahon ng sambong
+5. Atis
+6. Kalamansi
+7. Hindi ko matandaan","1. Neozep
+2. Bioflu
+3. Antihistamine
+4. Dahon sa sambong
+5. Atis
+6. Kalamansi
+7. wala ko kahibalo",,,
+Done,,lasttime-cough,38,Question,When is the last time you had a _____?,Kailan yung huling beses na nagka-____ ka?,Kailan ka huling nagka-____?,Kailan ka huling nagkaroon ng ____?,Kanus a ka katapusang gi ______?,,,
+Done,,,,Reply,"1. Yesterday
+2. Last week
+3. Last month
+4. Last year
+5. I forgot
+6. I don't know","1. Kahapon
+2. Nakaraang linggo
+3. Nakaraang buwan
+4. Nakaraang taon
+5. Hindi ko maalala
+6. Hindi ko alam",,"1. Kahapon 
+2. Nakaraang linggo
+3. Nakaraang buwan
+4. Nakaraang taon
+5. Hindi matandaan
+6. Hindi alam","1. Gahapon
+2. atong miaging semana
+3. atong miaging buwan
+4. atong miaging tuig
+5. nakalimot nako
+6. wala ko kahibalo",,,
+Done,,lasttime-cough-days,39,Question,How many days did you experience it?,Ilang araw mo ito naranasan?,,Ilang araw mo na itong nararamdaman?,Pila ka adlaw nani nimo nasinati?,,,
+Done,,,,Reply,"1. One
+2. Two
+3. Three
+4. Four
+5. Five
+6. Six
+7. Seven
+8. More than seven days","1. Isa
+2. Dalawa
+3. Tatlo
+4. Apat
+5. Lima
+6. Anim
+7. Pito
+8. Lagpas sa isang linggo",,"1. Isang araw
+2. Dalawang araw
+3. Tatlong araw
+4. Apat na araw
+5. Limang araw
+6. Anim na araw
+7. Isang linggo 
+8. Lagpas isang linggo","1. usa
+2. Duha
+3. Tulo
+4. Upat
+5. Lima
+6. Unom
+7. usa na ka semana
+8. lapas na sa usa ka semana",,,
+Done,,relief-meds-frequency,40,Question,Do you take it when needed?,Iniinom ba ito kapag kinakailangan?,,Iniinom mo ba ito kung kailangan?,Moinum baka niini kung kinahanglanon?,,,
+Done,,,,Reply,"1. Always
+2. Sometimes
+3. Never","1. Palagi
+2. Minsan
+3. Hindi kailanman",,"1. Oo, palagi.
+2. Minsan lang
+3. Hindi kahit kailan","1. Permi
+2. Usahay
+3. dili gud",,,
+Done,,relief-meds-stoppage-x,41,Question,Did your ____ disappear?,Nawala o naibsan ba ang iyong ____ pagkatapos inumin ang mga ito?,,"Pagkatapos mong uminom nito, nawala ba ang _________?",Paghuman nimo ug inum nawala ba ang imong _________?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. A little bit","1. Oo
+2. Hindi
+3. Medyo",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Usahay",,,
+Done,,reliefacts-for-x,42,Question,What do you do to relieve your ____?,Anu-ano ang mga ginawa mo upang maibsan o mawala ang iyong ____?,,Anong madalas mong gawin para mabawasan/ mawala ang _________? ,Unsay kasagaran nimong buhaton para mawala ang imong _________?,,,
+Done,,,,Reply,"1. Rest
+2. Sleep","1. Pahinga
+2. Tulog",,"1. Nagpapahinga
+2. Natutulog","1. Mopahuway
+2. Matulog",no fallback?,,
+Done,,singa-appearance,43,Question,What does your snot look like?,Ano yung kulay ng sininga mo?,,Anong hitsura ng sipon mo?,Unsay hitsura sa imong sip on?,,,
+Done,,,,Reply,"1. Whitish
+2. Yellowish
+3. Greenish
+4. Brownish
+5. Blood-tinged","1. Puti
+2. Dilaw
+3. Berde
+4. Kayumanggi
+5. May dugo",,"1. Parang tubig
+2. Manilaw-nilaw
+3. Kulay berde
+4. Mala-tsokolate
+5. May kasamang dugo","1. Puti
+2. Yellow
+3. Green
+4. Brown
+5. Adunay kauban na dugo",english in cebuano?,,
+Done,,spit-appearance,44,Question,What is the color of your spit?,Ano yung kulay ng dura mo?,,Anong hitsura ng dura mo?,Unsay hitsura sa imong luwa?,,,
+Done,,,,Reply,"1. Whitish
+2. Yellowish
+3. Greenish
+4. Brownish
+5. Blood-tinged","1. Puti
+2. Dilaw
+3. Berde
+4. Kayumanggi
+5. May dugo",,"1. Karaniwang puti
+2. Manilaw-nilaw
+3. Kulay berde
+4. Mala-tsokolate
+5. May kasamang dugo","1. Puti
+2. Yellow
+3. Green
+4. Brown
+5. Adunay kauban na dugo",english in cebuano?,,
+Done,ear-module,earp-x-prescribeddrops,45,Question,,Nagreseta ba ng gamot sa tenga yung doktor?,,Nagbigay ba ang doktor ng reseta ng gamot para sa tenga mo?,Naghatag ba ang doctor ug tambal para sa imong dunggan?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi ko alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,si-dischargecolor,46,Question,,Anong kulay ito?,,Napansin mo ba kung anong kulay ito?,Napansin ba nimo kung unsay color ato?,,,
+Done,,,,Reply,"1. White
+2. Red
+3. Yellow
+4. I don't know","1. Puti
+2. Pula
+3. Dilaw
+4. Wala",,"1. Kulay puti
+2. Kulay pula
+3. Kulay dilaw
+4. Hindi ko alam","1. Puti
+2. Puwa
+3. Yellow
+4. Wala ko kahibalo",,,
+Done,,earp-x-checkup,47,Question,,Nagpatingin ka ba sa doktor?,,Nagpatingin ka ba sa doktor?,Nakapacheck up baka sa doctor?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,earp-x-clearance,48,Question,,Kinlaro ka ba ng doktor mula sa impeksyon?,,May sinabi ba ang doktor na ligtas ka mula sa impeksyon?,Aduna bay gisulti ang doctor mahitungod sa impeksyon?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. wala
+3. dili ko sigurado/Wala ko kahibalo",,,
+Done,,earp-x-confirmation,49,Question,,Nagkaroon ka ba ng ____?,,Nagkaroon ka ba ng ____?,Nagka ____ baka?,EE document,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Dili
+3. Basin / Wala ko kahibalo",,,
+Done,,earp-x-duration,50,Question,,Gano katagal na ang ____ sa iyong tenga?,,Ilang araw na sa tenga mo ang ____?,Unsa na kadugay sa imong dunggan ang ____?,,,
+Done,,,,Reply,"1. 1-3 days
+2. 4-6 days
+3. 7 days or more","1. 1-3 araw
+2. 4-6 araw
+3. Mahigit 7 araw",,"1. 1-3 araw
+2. 4-6 araw
+3. 7 araw at higit pa","1. 1-3 ka adlaw
+2. 4-6 ka adlaw
+3. usa ka semana na kapin",,,
+Done,,earp-x-followupcheckup,51,Question,,Nagpatingin ka ba ulit sa doktor?,,Nagpatingin ka ba ulit sa doktor?,Nakapatan aw kaba sa doctor niini?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,earp-x-part,52,Question,,Saan banda ng tenga ang may ____?,,Alin sa mga tenga mo ang _________?,Asa sa imong dunggan ang na _________?,,,
+Done,,,,Reply,"1. Left ear
+2. Right ear
+3. Both ears","1. Kaliwa
+2. Kanan
+3. Pareho",,"1. Kaliwang tenga
+2. Kanang tenga
+3. Parehong tenga","1. Wala na dunggan
+2. Tuo na dunggan
+3. Ang duha ka dunggan",,,
+Done,,earp-x-past,53,Question,,Kailan huling ngayari ang ____?,,Kailan mo ito huling naramdaman?,Kanus a ni nimo katapusaang nabati?,,,
+Done,,,,Reply,"1. Today
+2. Yesterday
+3. Last week
+4. More than a month ago","1. Kahapon
+2. Nakaraang linggo
+3. Nakaraang buwan",,"1. Ngayong araw   2. Kahapon 
+3. Nakaraang linggo 
+3. Higit ng isang buwan ","1. Karon adlawa                                     2. Gahapon
+3. Miaging semana
+3. lapas na sa usa ka buwan",,,
+Done,,fungal-didapplycream,54,Question,,Naglagay ba ng fungal cream sa iyong tenga?,,May ipinahid ka ba sa tenga mo na panlaban sa mikrobyo?,Aduna ba kay gipahid sa imong dunggan na pangkontra sa mikrobyo?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Meron
+2. Wala 
+3. Hindi sigurado/ hindi alam","1. Naa
+2. Wala 
+3. Mura/Wala ko kahibalo",,,
+Done,,fungal-extremeheadache,55,Question,,Sumakit ba ang ulo mo?,,Nakaramdam ka ba ng pananakit ng ulo?,Nakabati baka ug pagsakit sa ulo?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. wala
+3.Mura/ Wala ko kahibalo",,,
+Done,,fungal-itchiness,56,Question,Does your inner ear itch?,Nangangati ba yung loob ng tenga mo?,Nangangati ba ang loob ng tenga mo?,Nangangati ba ang tenga mo sa loob? ,Nangatol ba ang sulod sa imong dunggan?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,fungal-muffledhearing,57,Question,,Humina ba ang iyong pandinig?,,Napansin mo ba kung humihina ang pandinig ng tenga mo?,Nakabati baka nga niminus ang imong pandunggog?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura / Wala ko kahibalo",,,
+Done,,si-allergicrhinitis,58,Question,,Meron ka bang allergic rhinitis bago sumakit ang iyong tenga?,,Meron ka bang allergic rhinitis bago sumakit ang tenga mo?,Aduna bakay alerdyic rhinitis sa wala pa nisakit ang imong dunggan?,,,
+Done,,,,Reply,"1. There is
+2. None
+3. I don't know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Meron
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,si-dischargecolor,59,Question,,Anong kulay ito?,,Napansin mo ba kung anong kulay ng likidong lumalabas sa tenga mo?,Unsay kolor sa tubig nga miagas sa imong dunggan?,,,
+Done,,,,Reply,"1. White
+2. Red
+3. Yellow
+4. Nothing comes out of my ear","1. Puti
+2. Pula
+3. Dilaw
+4. Wala",,"1. Kulay puti
+2. Mapula-pula
+3. Manilaw-nilaw
+4. Walang lumalabas sa tenga ko","1. Puti
+2. Puwa puwa
+3. Yellow
+4. Wala ray niagas sa akong dunggan",,,
+Done,,si-dischargefoulsmell,60,Question,,Meron bang amoy yung luga?,,Masama bang amoy ng likidong lumalabas sa tenga mo?,Baho ba ang moagas sa imong dunggan?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Dili
+3. Mura / Wala ko kahibalo",,,
+Done,,si-insertedobject,61,Question,,May pinasok ka ba sa iyong tenga?,,Meron ka bang ipinasok sa loob ng tenga mo?,Aduna bakay gisulod sa imong dunggan?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Meron
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Naa
+2. Wala
+3. Mura/ wala ko kahibalo",,,
+Done,,si-itchiness,62,Question,Does your inner ear itch?,Makati ba ang loob ng iyong tenga?,,Nangangati ba ang tenga mo sa loob?,Nangatol ba ang sulod sa imong dunggan?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura / Wala ko kahibalo",,,
+Done,,so-allergicreactionearrings,63,Question,,Meron ka bang allergy sa hikaw?,,Allergic ba ang tenga mo sa hikaw?,Alerdyik ba imong dunggan ug ariyos?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Dili
+3. Mura / Wala ko kahibalo",,,
+Done,,so-unhealedpiercing,64,Question,,Meron ka bang piercing na hindi pa naghilom?,,Meron bang butas ang tenga mo para sa hikaw na hindi pa tuluyang gumagaling?,Aduna bakay buslot para sa ariyos na wala pa naayo?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Meron
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,swelling-earlobe-location,65,Question,,Saang parte ng tenga ang may pamamaga?,,Napansin mo ba kung saan banda namamaga?,Nakapansin baka ug asa dapita ang nihubag?,,,
+Done,,,,Reply,"1. Outer part
+2. Inner part
+3. I don't know","1. Labas
+2. Loob
+3. Wala",,"1. Sa bukana/ labas ng tenga 
+2. Sa bandang loob
+3. Hindi sigurado/ hindi alam","1. Sa gawas na parte
+2. Sa sulod na parte
+3. Wala ko kahibalo",I138 - labas ng tenga nilagay ko,,
+Done,,swelling-painintensity,66,Question,,Gaano ka sakit ito (1-10)? 10 bilang pinakamasakit,"Mula 0 hanggang 10, kung saan 10 ang pinakamataas, gaano kasakit ito?",Gaano katindi ang sakit kung nasa bilang 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,endocrine-module,"endocrine-circumcision-
+days-to-heal",67,Question,How long did it take before you have completely not experience pain from circumcision?,Gaano katagal bago mo hindi nakaramdam ng sakit mula sa pagtuli?,Gaano katagal bago napawi ang naramdaman mong sakit sa pagtuli?,Ilang araw makirot/ masakit ang sugat sa pagkatuli?,Pila ka adlaw nisakit ang samad sa tuli?,,,
+Done,,,,Reply,"1. At most a day
+2. 1 - 3 days
+3. 4 - 6 days
+4. 7 - 10 days
+5. More than 10 days
+6. I do not remember","1. Di higit sa isang araw
+2. 1 - 3 na araw
+3. 4 - 6 na araw
+4. 7 - 10 na araw
+5. Higit sa 10 araw
+6. Hindi ko maalala",,"1. isang araw  
+2. 2- 3  araw
+3. 4- 6  araw
+4. 7-10 araw
+5. lagpas 10 araw
+6. Hindi matandaan ","1. usa ka adlaw
+2. duha hangtod sa tulo ka adlaw
+3. upat hangtod sa unom ka adlaw
+4. pito hangtod sa napulo ka adlaw
+5. lapas na sa napulo ka adlaw
+6. Wala ko nakahibalo",,,
+Done,,"endocrine-circumcision-
+painintensity",68,Question,"From 0 to 10, 10 is the highest, how do you felt that pain while you were circumcised?","Mula 0 hanggang 10, 10 ang pinakamataas, gaano mo naramdaman ang sakit habang ikaw ay tinuli?","Mula 0 hanggang 10, kung saan 10 ang pinakamataas, gaano kasakit ang pagtuli?",Gaano katindi ang sakit kung nasa bilang 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,,"endocrine-
+hascircumcised",69,Question,Were you circumcised?,Tuli ka ba?,,Natuli ka na ba?,Natuli na ba ka?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi pa
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala pa
+3. Mura/ wala ko kahibalo",,,
+Done,,endocrine-hasmens,70,Question,Did you have menstruation?,Nagkaroon ka na ba ng regla?,,Nagkaroon ka na ba ng regla?,Gidugo naba ka?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi pa
+3. Hindi sigurado/ hindi maalala","1. Oo
+2. wala pa
+3. Mura/ wala ko kahibalo",,,
+Done,,"endocrine-mens-
+colorbeginning",71,Question,What was the color of the blood at the beginning of your menstrual period?,,,Anong kulay ng regla mo sa simula/ unang araw? ,Unsay kolor sa imong permirong regla?,,,
+Done,,,,Reply,"1. Orange
+2. Pink
+3. Light red
+4. Brown/dark red
+5. Black
+6. Gray
+7. I do not remember","1. Kulay kahel
+2. Kulay rosas
+3. Matingkad na pula
+4. Kayumanggi/dark red
+5. Itim
+6. Kulay abo
+7. Hindi ko maalala",,"1. Kulay kahel
+2. Mala-rosas
+3. Maputlang kulay pula
+4. Matingkad na kulay pula
+5. Maitim
+6. Kulay abo
+7. Hindi sigurado/ hindi matandaan ","1. orange
+2. pink
+3. luspad na puwa
+4. hayag nga puwa
+5. Itom
+6. Murag abo
+7. Wala ko kahinumdum",,,
+Done,,"endocrine-mens-
+colorend",72,Question,At the end of your menstrual period?,Sa pagtatapos ng iyong regla?,,Anong kulay ng regla mo sa huling araw? ,Unsay kolor sa imong regla sa katapusang adlaw?,,,
+Done,,,,Reply,"1. Orange
+2. Pink
+3. Light red
+4. Brown/dark red
+5. Black
+6. Gray
+7. I do not remember","1. Kulay kahel
+2. Kulay rosas
+3. Matingkad na pula
+4. Kayumanggi/dark red
+5. Itim
+6. Kulay abo
+7. Hindi ko maalala",,"1. Kulay kahel
+2. Mala-rosas
+3. Maputlang kulay pula
+4. Matingkad na kulay pula
+5. Maitim
+6. Kulay abo
+7. Hindi sigurado/ hindi matandaan ","1. orange
+2. pink
+3. luspad na puwa
+4. hayag nga puwa
+5. Itom
+6. Murag abo
+7. Wala ko kahinumdum",,,
+Done,,"endocrine-mens-
+colormiddle",73,Question,In the middle part?,Sa gitnang bahagi?,,Anong kulay ng regla mo sa kalagitnaan? ,Unsay kolor sa imong regla pag tunga tunga?,,,
+Done,,,,Reply,"1. Orange
+2. Pink
+3. Light red
+4. Brown/dark red
+5. Black
+6. Gray
+7. I do not remember","1. Kulay kahel
+2. Kulay rosas
+3. Matingkad na pula
+4. Kayumanggi/dark red
+5. Itim
+6. Kulay abo
+7. Hindi ko maalala",,"1. Kulay kahel
+2. Mala-rosas
+3. Maputlang kulay pula
+4. Matingkad na kulay pula
+5. Maitim
+6. Kulay abo
+7. Hindi sigurado/ hindi matandaan ","1. Kulay kahel
+2. Mala-rosas
+3. Maputlang kulay pula
+4. Matingkad na kulay pula
+5. Maitim
+6. Kulay abo
+7. Hindi sigurado/ hindi matandaan ",,,
+Done,,"endocrine-mens-
+hasdischarges",74,Question,Were there other fluids that flow out aside from your blood?,Mayroon bang ibang likido na umaagos bukod sa iyong dugo?,May iba bang lumabas bukod sa dugo?,Napansin mo ba kung may lumalabas sa pwerta mo bukod pa sa iyong  regla?,Napansin ba nimo na adunay laing nigawas sa imong kinataw nga dili parte sa imong regla?,,,
+Done,,,,Reply,"1. Yes, there are
+2. None
+3. I do not remember","1. Meron
+2. Wala
+3. Hindi ko maalala",,"1. Oo, meron pang iba
+2. Wala naman
+3. Hindi sigurado/ hindi matandaan","1. Oo, naa pay lain nigawas
+2. Wala ra
+3. Mura/ Wala ko kahibalo",,,
+Done,,"endocrine-mens-
+intervalperiod",75,Question,Did it last more or less than 28 days?,Tumagal ba ito ng higit o mas mababa sa 28 araw?,,Karaniwan bang dumadating ang regla mo tuwing ika-28 araw? ,Permi bang mogawas imong regla kada 28 ka adlaw?,,,
+Done,,,,Reply,"1. More or equal
+2. Less
+3. I do not remember","1. Higit pa o katumbas doon
+2. Mas mababa
+3. Hindi ko maalala",,"1. Eksakto o lagpas ng ilang araw 
+2. Mas maaga 
+3. Hindi matandaan","1. Eksakto o lapas ug pila ka adlaw
+2. Mas sayo maabot
+3. Wala nako nakahinumdum",,,
+Done,,"endocrine-mens-
+last-occurred",76,Question,When was your last menstrual period?,Kailan ang iyong huling regla?,,Kailan ang huli mong regla?,Kanus a imong katapusang regla?,,,
+Done,,,,Reply,"1. Today
+2. Yesterday
+3. 2 - 4 days
+4. 5 - 7 days
+5. 8 - 10 days
+6. More than 10 days
+7. I do not remember","1. Ngayong araw
+2. Kahapon
+3. 2 - 4 na araw
+4. 5 - 7 na araw
+5. 8 - 10 na araw
+6. Hight sa 10 araw
+7. Hindi ko maalala",,"1. Ngayon
+2. Kahapon
+3. Nakalipas na 2-4 araw
+4. Nakalipas na 5-7 araw
+5. Nakalipas na 8-10 araw
+6. Lagpas 10 araw                                                7. Hindi matandaan ","1. Karon
+2. Gahapon
+3. 2-4 ka adlaw na ang milabay
+4. 5-7 ka adlaw na ang milabay
+5. 8-10 ka adlaw na ang milabay
+6. Lapas na sa 10 ka adlaw                                               7. Wala nako nakahinumdum",,,
+Done,,"endocrine-mens-
+stomachhurt",77,Question,Does your stomach always hurt while on a menstrual period?,Lagi bang sumasakit ang iyong tiyan habang nasa regla?,Lagi bang sumasakit ang tiyan mo tuwing nireregla ka?,Madalas bang sumasakit ang puson mo kapag may regla ka?,Permi bang mosakit imong pus-on ug mag regla ka?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Minsan
+3. Hindi ","1. Oo
+2. Usahay
+3. Dili",,,
+Done,eyes-module,eyep-haspain,78,Question,Did you experience pain in your eyes?,Naranasan mo na ang sakit sa iyong mga mata?,Nakaranas ka ba ng pananakit ng mata?,Sumasakit bang mga mata mo?,Nisakit ba ang imong mata?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala
+3. Mura/ Wala ko kahinumdum",,,
+Done,,eyep-lossofsight,79,Question,Is your vision blurry?,Nalabo ba ang iyong paningin?,,Napansin mo bang lumalabo ang paningin mo?,Napansin ba nimo nga mihanap ang imong panan aw?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. wala
+3. Basin / Wala ko kahinumdum",,,
+Done,,eyep-x-affectedeye,80,Question,Which eye is affected by ____?,Aling mata ang apektado ng ____?,,Alin sa mga mata mo ang may problema?,Asa sa imong mga mata ang adunay problema?,,,
+Done,,,,Reply,"1. Left
+2. Right
+3. Both left and right
+4. I do not remember","1. Kaliwa
+2. Kanan
+3. Kaliwa at kanan
+4. Hindi ko maalala",,"1. Kaliwa
+2. Kanan
+3. Pareho, kaliwa at kanan
+4. Hindi sigurado/ hindi matandaan","1. Wala
+2. Tuo
+3. ang duha
+4. Wala ko kahinumdum",,,
+Done,,eyep-x-causes,81,Question,Why did you have ____?,Bakit ka nagkaroon ng ____?,,"Sa tingin mo, bakit nangyari ito?",Sa imong tan aw nganong nagkaproblema man ang imong mata?,,,
+Done,,,,Reply,"1. Allergies
+2. Smoke/dust
+3. Exposure to chlorine
+4. Direct sunlight
+5. Scratched eyes
+6. Foreign object
+7. Other reasons
+8. I do not remember","1. Mga allergies
+2. Usok/alikabok
+3. Exposure sa chlorine
+4. Direct sunlight
+5. Nakalmot ang mata
+6. Foreign object
+7. Ibang dahilan
+8. Hindi ko maalala","1. Mga allergies
+2. Usok/alikabok
+3. Exposure sa chlorine
+4. Sinag ng araw
+5. Nakalmot ang mata
+6. Foreign object
+7. Ibang dahilan
+8. Hindi ko maalala","1. Nagkaroon ng allergy
+2. Nausukan/ naalikabukan 
+3. Napasukan ng chlorine
+4. Nasinagan ng araw
+5. Nakalmot ang mata
+6. Natamaan ng bagay
+7. Iba pang dahilan ____________
+8. Hindi alam/ hindi matandaan","1. Nagka alerdyi
+2. Naasuhan or naabugan
+3. Nasudlan ug chlorine
+4. Nahayagan sa adlaw
+5. Nakawras ang mata
+6. Naigo ug butang
+7. Uban pang rason ____________
+8. Wala ko kahibalo/ Nakalimot nako",,,
+Done,,eyep-x-confirmation,82,Question,Did you experience having ____?,Naranasan mo na bang magkaroon ng ____?,,Naranasan mo na bang _____________?,Nakasuway baka ug _____________?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi alam/ hindi matandaan","1. Oo
+2. Wala
+3. Mura / Wala ko kahinumdum",,,
+Done,,eyep-x-duration,83,Question,How long did it take you to see and relieve it?,Gaano katagal bago mo nakita at naibsan ito?,,Ilang araw bago mo ito napansin at nagawan ng paraan?,Pila ka adlaw usa ni nimo napansin ug napangitaan ug paagi?,,,
+Done,,,,Reply,"1. Immediately
+2. Less than a day
+3. Less than a week
+4. Less than a month
+5. 1 or more months
+6. I do not remember","1. Kaagad-agad
+2. Wala pang 1 araw
+3. Wala pang 1 linggo
+4. Wala pang 1 buwan
+5. 1 o higit pang buwan
+6. Hindi ko maalala",,"1. Kaagad-agad
+2. Wala pang isang araw
+3. Pagkalipas ng isang linggo
+4. Pagkalipas ng isang buwan
+5. Lagpas ng isang buwan
+6. Hindi alam/ hindi matandaan","1. napansin dayon
+2. Wala pay usa ka adlaw
+3. usa ka semana na ang milabay
+4. Usa ka buwan na ang milabay
+5. Lapas na sa usa ka buwan
+6. Wala ko kahibalo/ wala nako nakahinumdum",,,
+Done,,eyep-x-past,84,Question,When did you last have it?,Kailan ka huling nagkaroon nito?,,Kailan mo ito huling naramdaman?,Kanus a ni nimo katapusaang nabati?,,,
+Done,,,,Reply,"1. A while ago/just now
+2. Yesterday
+3. 2 to 4 days ago
+4. 5 to 7 days ago
+5. More than 1 week ago
+6. I do not remember","1. Kanina/Ngayon lang
+2. Kahapon
+3. 2 - 4 araw lumipas
+4. 5 - 7 araw lumipas
+5. Higit sa 1 linggo
+6. Hindi ko maalala",,"1. Ngayon/ Kanina lang
+2. Kahapon
+3. Nakaraang 2- 4 araw 
+4. Nakaraang 5- 7 araw 
+5. Lagpas ng isang linggo
+6. Hindi alam/ hindi matandaan","1.Karon lang
+2. Gahapon
+3. sa milabay na 2-4 ka adlaw
+4.sa milabay na 5-7 ka adlaw
+5. Lapas na sa usa ka semana
+6. Wala ko kahibalo/ Wala nako nakahinumdum",,,
+Done,,"eyes-canseeclearly
+afterwearingglasses",85,Question,Can you still see clearly after wearing glasses?,Malinaw ba ang nakikita mo pagkatapos magsuot ng salamin?,Malinaw ba ang paningin mo pagsuot ng salamin?,Malinaw bang paningin mo kapag may suot na salamin?,Motin aw ba ang imong panan-aw ug magsoot ka ug antipara?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes
+4. I do not remember","1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Dili
+3. Usahay
+4. Mura / Wala ko kahinumdum",,,
+Done,,eyes-checkup,86,Question,Have you had your eye checked by an ophthalmologist?,Napatingin mo ba ang iyong mata sa isang ophthalmologist?,,Napatingnan mo na ba ang mata mo sa opthalmologist? ,Napatan aw naba nimo ang imong mata sa doctor sa mata?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Wala
+3. Mura",,,
+Done,,eyes-furthercheckup,87,Question,Do you need further checkup with an ophthalmologist?,Kinailangan mo ba ng karagdagang checkup sa iyong ophthalmologist?,,Kailangan mo ba ulit patingnan sa doktor ang mata mo?,Kinahanglan paba nimo ipatan aw ug balik ang imong mata sa doctor?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi alam/ hindi sigurado","1. Oo
+2. Dili
+3. Wala ko kahibalo/ Mura",,,
+Done,,eyes-sighted,88,Question,Are you near-sighted or far-sighted?,Near-sighted ka o far-sighted?,,Malabo ba ang paningin mo sa malayo o sa malapit?,Mohanap ba ang imong panan-aw sa dool o layo?,,,
+Done,,,,Reply,"1. Near-sighted
+2. Far-sighted
+3. Both","1. Near-sighted
+2. Far-sighted
+3. Pareho",,"1. Malabo sa malayuan
+2. Malabo sa malapitan
+3. Parehong malabo, malapit at malayo","1. Hanap basta layo
+2. Hanap ug dool
+3.parehang hanap madool o malayo",,,
+Done,,eyes-wearsglasses,89,Question,Do you wear glasses?,Nagsasalamin ka ba?,,Nagsusuot ka ba ng salaming may grado?,Magsul ob baka ug antipara nga adunay grado?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes
+4. I do not remember","1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Dili
+3. Usahay
+4. Mura / Wala ko kahinumdum",,,
+Done,"family-history-
+module",complete-immunization,90,Question,"To your knowledge, have you completed the required vaccinations?","Sa pagkakaalam mo, nakumpleto ba ang mga kinailangan mong bakuna?",,Natatandaan mo ba kung nakumpleto mo ang kinakailangang mga bakuna?,Nakahinumdum baka ug nakompleto ba ang imong mga kinahanglang bakuna atong bata paka?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala
+3. Mura / Wala ko kahinumdum",,,
+Done,,has-fh-x,91,Question,Do you have a family or relative who has ____?,May mga kapamilya o pinsan ka na may ____?,May kamag-anak ka bang may ____?,May kapamilya o kamag-anak ka ba na may ____?,Aduna bakay kapamilya o parente nga adunay _______?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Maybe","1. Oo
+2. Hindi
+3. Hindi sigurado",,"1. Meron
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Naa
+2. Wala
+3. Mura/ wala ko kahibalo",,,
+Done,,has-immu-x,92,Question,Have you been vaccinated against ____?,Nabakunahan ka na ba laban sa ____?,,Nabakunahan ka na ba laban sa ____?,Nabakunahan baka batok sa  ____?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Maybe","1. Oo
+2. Hindi
+3. Hindi sigurado",,"1. Oo
+2. Hindi pa
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Mura/ Wala ko kahibalo",,,
+Done,,lacking-vaccines,93,Question,What vaccines were not yet given to you?,Anu-anong mga bakuna ang hindi pa naibigay sa iyo?,,Ano ang mga bakunang hindi mo pa nakukuha/ natatanggap?,Unsa na bakuna ang wala nimo madawat?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Maybe","1. Oo
+2. Hindi
+3. Hindi sigurado",,note: paki-double check dahil mukhang hindi tama ang mga reply,a. DPT                                                             b. BCG                                                        c. OPV                                                                         d. Measles                                                   e. Tetanus                                                      f. Covid vaccine,accepts any answer,,
+Done,,who-fh-x,94,Question,"On father side, mother side, or both?","Sa father side, mother side o pareho?",,"Kanino mo namana, sa tatay o sa nanay o pareho?",Asa mani nimo nakuha?,,,
+Done,,,,Reply,"1. On father's side
+2. On mother's side
+3. Both","1. Sa panig ng ama
+2. Sa panig ng ina
+3. Pareho",,"1. Sa lahi ng tatay 
+2. Sa lahi ng nanay 
+3. Pareho sa lahi ng tatay at nanay ","1. kaliwat ni papa
+2. kaliwat ni mama
+3. Pareho silang duha",,,
+Done,general-module,get-username,95,Question,What is your username?,Ano ang username mo?,,Ano ang gamit mong username?,Unsa ang imong gigamit na username?,,,
+Done,,,,Reply,NO CHOICES (FREE RESPONSE),NO CHOICES (FREE RESPONSE),,,,,,
+Done,,"privacy-policy-
+confirmation",96,Question,Good Day I am Nurse Bot Dhelia. I am a Nurse Bot and I will ask you some questions about your health. Is that okay?,Magandang araw ako si Nurse Bot Dhelia. Ako ay isang Nurse Bot at magtatanong lamang ako ng ilang katanungan tungkol sa iyong kalusugan?,"Magandang araw, ako si Nurse Bot Dhelia. Ako ay isang Nurse Bot at magtatanong lamang ako ng ilang katanungan tungkol sa iyong kalusugan. Okay lang ba sa iyo?",Kumusta ka?  Gusto kong magpakilala sa iyo. Isa akong Nurse Bot. Ang pangalan ko ay si Nurse Bot DHELIA. Puwede ba akong magtanong tungkol sa kalusugan ng katawan mo?  Payag ka ba?,Kamusta ka?  Ganahan ko magpaila-ila nimo. Usa ko ka Nurse Bot. Ako si Nurse Bot DHELIA. Pwede bako mangutana mahitungod sa sitwasyon sa imong panglawas? Mosugot baka?,,,
+Done,,,,Reply,"1. Yes
+2. No","1. Oo
+2. Hindi",,"1. Opo
+2. Hindi po.","1. Oo
+2. Dili",,,
+Done,gi-module,blackfood-stomach,97,Question,,Madalas ka bang kumakain ng pagkain na itim ang kulay?,,"Palagi ka bang kumakain ng mga  prutas, gulay o butil na medyo o sadyang maitim ang kulay?    ","Permi baka mokaon ug mga prutas, otanon o pagkaon na itom ang kolor?",,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko alam","1. Oo
+2. Dili
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,bowels-stomach,98,Question,,Dumudumi ka ba araw-araw?,,Nagagawa mo bang dumumi araw-araw?,Malibang baka kada adlaw?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado","1. Oo
+2. Dili
+3. Wala ko kahibalo",,,
+Done,,boweltimes-stomach,99,Question,,Ilang beses ka nagdumi?,,Ilang beses kang dumudumi sa loob ng isang linggo?,Kapila ka malibang sulod sa usa ka semana?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. Higit sa 7
+5. Hindi ko alam",,"1. 0
+2. 1 - 3 beses
+3. 4 - 6 beses
+4. sobra sa 7 beses
+5. Hindi sigurado","1. 0
+2. ka 1 hangtod 3 
+3. ka 4 hangtod 6 
+4. lapas ka 7
+5. Wala ko kahibalo",,,
+Done,,"boweltimesdaily-
+stomach",100,Question,,Ilang beses ka dumudumi sa isang araw?,,Ilang beses kang dumudumi sa loob ng isang araw?,Kapila ka malibang sulod sa usa ka adlaw?,,,
+Done,,,,Reply,,"1. 1 to 3
+2. 4 to 7
+3. 8 pataas
+4. 0
+5. Hindi ko alam",,"1. 0
+2. 1-3 beses 
+3. 4-6 beses
+4. sobra s 7 beses
+5. Hindi sigurado","1. 0
+2. ka 1 hangtod 3 
+3. ka 4 hangtod 6 
+4. lapas ka 7
+5. Wala ko kahibalo",,,
+Done,,causes-stomach,101,Question,,Bakit sumakit ang tiyan mo?,,Bakit masakit ang tiyan mo?,Nganong nagsakit ang imong tiyan?,,,
+Done,,,,Reply,,"1. Dahil sa trauma
+2. Dahil sa pagkain
+3. Dahil sa gamot
+4. Dahil sa mga fluids
+5. Dysmenorrhea
+6. Hindi ko alam",,"1. nabunggo/ tumama sa isang bagay
+2. dahil sa kinain 
+3. dahil sa gamot
+4. dahil sa ininom
+5. dahil sa dating sakit
+6. Hindi alam/ hindi sigurado","1. napakong o naigo ug butang
+2. tungod sa akong nakaon
+3. tungod sa tambal
+4. tungod sa giinum
+5. tungod sa daan na nga gipamati
+6. wala ko kahibalo",,,
+Done,,checkup-stomach,102,Question,,Napatingin mo ba ito sa iyong doktor?,,Nagpatingin ka na ba sa doktor?,Nagtan aw baka sa doctor?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,chills-stomach,103,Question,,Nanlamig ka ba?,,Nanlamig ka ba habang masakit ang tiyan mo?,Namugnaw baka pagsakit sa imong tiyan?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado","1. Oo
+2. Wala
+3. Mura",,,
+Done,,constipation-stomach,104,Question,,Na-constipate ka ba?,,Nahihirapan ka bang dumumi?,Naglisod baka ug kalibang?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,dehydrate-stomach,105,Question,,Na-dehydrate ka ba?,,Pakiramdam mo ba nanunuyo ang lalamunan o sobra kang nauuhaw?,Sa imong pamati niuga ba imong tutunlan o giuhaw ka ug pag ayo?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,diarrhea-stomach,106,Question,,Nagka-diarrhea ka ba?,,Sobra bang malambot o parang tubig ang dumi mo?,Sobra ba kahumok o basa ang imong tae?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,"diffsmellortaste-
+stomach",107,Question,,May kakaiba ka bang nalasahan o naamoy sa pagkaing ito?,,Napansin mo ba kung may kakaiba sa panlasa o pang-amoy mo?,Napansin ba nimo na naay pag usab sa imong panglasa o panimaho?,,,
+Done,,,,Reply,,"1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Oo, meron.
+2. Wala
+3. Medyo","1. Oo, naa.
+2. Wala
+3. Medyo",,,
+Done,,drinkwater-stomach,108,Question,,Ilang basong tubig ang iniinom mo sa isang araw?,,"Ilang baso ng tubig ang nauubos mo sa loob ng isang araw? Hindi kasama ang juice, softdirinks, at iba pang inuming may kulay.","Pila ka baso nga tubig ang mahurot nimo sa sulod sa usa ka adlaw?Walay labot ang juice, softdrinks ug uban pang ilimnon na aduna kolor.",,,
+Done,,,,Reply,,"1. 1 to 3
+2. 4 to 7
+3. 8 pataas
+4. 0
+5. Hindi ko alam",,"1. 1 - 3 baso
+2. 4 - 7 baso
+3. 8 baso 
+4. sobra sa 8 baso 
+5. Hindi sigurado","1. 1 hangtod sa 3 ka baso
+2. 4 hangtod sa 7 ka baso
+3. 8 ka baso 
+4. sobra sa 8 baso 
+5. Wala ko kahibalo",,,
+Done,,duration-stomach,109,Question,,Gaano katagal na sumakit ang iyong tiyan?,,Gaano katagal nang masakit ang tiyan mo?,Unsa kadugay ng gasakit ang imong tyan?,,,
+Done,,,,Reply,,"1. Ilang minuto lang
+2. Ilang oras lang
+3. Ilang araw lang
+4. Higit sa isang linggo
+5. Hindi ko alam",,"1. Ilang minuto 
+2. Ilang oras na
+3. Ilang araw na
+4. Higit isang linggo na
+5. Hindi sigurado","1. pila na ka minuto 
+2. pila na ka oras
+3. pila na ka adlaw
+4. Lapas na sa usa ka semana
+5. Wala ko kahibalo",,,
+Done,,exercisereg-stomach,110,Question,,Palagi ka bang nag-eehersisyo?,,Madalas ka bang mag-ehersisyo?,Permi baka mag exercise?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi matandaan","1. Oo
+2. Dili
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,has-stomachpain,111,Question,,Sumakit ba ang iyong tiyan?,,Masakit ba ang tiyan mo?,Nagsakit ba ang imong tiyan?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Medyo
+4. Hindi sigurado","1. Oo
+2. Wala
+3. Medyo
+4. Wala ko kahibalo",,,
+Done,,highfiber-stomach,112,Question,,"Kumakain ka ba ng pagkain na mataas sa fiber tulad ng beans, brown rice, whole wheat bread, pasta o mani?",,Madalas ka bang kumain ng mga gulay at prutas?,Permi bakang mokaon ug mga otanon ug prutas?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado","1. Oo
+2. Dili
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,ironsupp-stomach,113,Question,,Nag-tatake ka ba ng iron supplements?,,Umiinom ka ba ng tabletang Iron para tulungang maging malusog ang katawan mo?,Moinum baka ug iron nga bitamina para makatabang pahimsog sa imong lawas?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi alam","1. Oo
+2. Dili
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,lastdefecate-stomach,114,Question,,Kailan ka huling dumumi?,,Kailan ka huling dumumi?,Kanus a ka katapusang nalibang?,,,
+Done,,,,Reply,,"1. Kanina/Ngayon lang
+2. Kahapon
+3. 2 - 4 na araw lumipas
+4. 5 - 7 na araw lumipas
+5. Higit sa 1 linggo
+6. Hindi ko maalala",,"1. Kanina lang
+2. Kahapon pa
+3. Nakaraang 2 - 4 araw 
+4. Nakaraang 5 - 7  araw 
+5. Higit isang linggo na
+6. Hindi matandaan","1. Ganina lang
+2. Gahapon pa
+3. 2 - 4 ka adlaw na ang milabay 
+4. 5 - 7 ka adlaw na ang milabay
+5. Lapas na sa usa ka semana
+6. Wala nako nakahinumdum",,,
+Done,,lasteaten-stomach,115,Question,,Ano ang huling mong kinain na dahilan ng iyong sakit sa tiyan?,,Ano ang huli mong kinain nang sumakit ang tiyan mo?,Unsa ang imong katapusang gikaon sa wala pa nisakit ang imong tiyan?,,,
+Done,,,,Reply,,"1. Pasta/spaghetti
+2. Gulay
+3. Manok, baboy o baka
+4. Sabaw
+5. Tinapay/pandesal
+6. Ice cream/yogurt
+7. Kape/tsaa
+8. Softdrinks
+9. Tubig
+10. Hindi ko maalala",,"1. Spaghetti
+2. Gulay
+3. Manok/ baboy/ baka
+4. Isda
+5. Tinapay/ biskwit 
+6. Ice cream/ yogurt/ milk tea
+7. Softdrinks/ kape/ tsaa/ salabat
+8. Tubig
+9.  Iba pa _______
+10. Hindi matandaan","1. Spaghetti
+2. Otanon
+3. Manok/ baboy/ baka
+4. Isda
+5. Pan/ biskwit 
+6. Ice cream/ yogurt/ milk tea
+7. Softdrinks/ kape/ tsaa/ salabat
+8. Tubig
+9.  uban pa _______
+10. Wala nako nakahinumdum",,,
+Done,,lasttime-stomach,116,Question,,Kailan huling sumakit ang tiyan mo?,,Kailan mo huling naramdamang masakit ang tiyan mo?,Kanus a katapusang nisakit ang imong tiyan?,,,
+Done,,,,Reply,,"1. Kanina/Ngayon lang
+2. Kahapon
+3. 2 - 4 na araw lumipas
+4. 5 - 7 na araw lumipas
+5. Higit sa 1 linggo
+6. Hindi ko maalala",,"1. Kanina / Ngayon lang
+2. Kahapon pa
+3. Nakaraang 2 - 4 araw 
+4. Nakaraang 5 - 7  araw 
+5. Higit isang linggo na
+6. Hindi matandaan","1. Karon lang
+2. Gahapon pa
+3. 2 - 4 ka adlaw na ang milabay
+4. 5 - 7 ka adlaw na ang milabay
+5. Lapas na sa usa ka semana
+6. Wala nako nakahinumdum",,,
+Done,,painintensity-stomach,117,Question,,"Mula 0 hanggang 10, paano mo ire-rate ang iyong nararamdamang sakit?",,Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,"1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10
+12. Hindi ko maalala",,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,,poopcolor-stomach,118,Question,,Anong kadalasang kulay ng iyong dinudumi?,,Ano ang kadalasang kulay ng dumi mo?,Unsay kasagarang kolor sa imong tae?,,,
+Done,,,,Reply,,"1. Dilaw
+2. Kayumanggi
+3. Maputla
+4. Maitim
+5. Hindi ko maalala",,"1. Kulay dlaw
+2. Kulay berde  
+3. Maitim
+4. Mala-tsokolate
+5. Hindi sigurado","1. Yellow
+2. Green  
+3. Itom
+4. Murag-tsokolate
+5. Wala ko kahibalo",,,
+Done,,poopform-stomach,119,Question,,Ano ang kadalasang itsura nito?,,Ano ang kadalasang itsura ng dumi mo?,Unsa ang kasagarang porma sa imong tae?,,,
+Done,,,,Reply,,"1. Buo
+2. Malambot
+3. Matubig
+4. Hindi ko maalala",,"1. Buo na matigas
+2. Buo na malambot
+3. Matubig
+4. Hindi sigurado ","1. tibook na gahi
+2. tibook na humok
+3. Tubigon
+4. Wala ko kahibalo ",,,
+Done,,pooptimes-stomach,120,Question,,Ilang beses ka dumudumi sa isang araw?,,Ilang beses kang dumudumi sa loob ng isang araw?,Kapila ka mopagawas ug hugaw sa sulod sa usa ka adlaw?,,,
+Done,,,,Reply,,"1. 1 to 3
+2. 4 to 7
+3. 8 pataas
+4. 0
+5. Hindi ko maalala",,"1. 1 - 3 beses
+2. 4 - 7 beses
+3. 8 beses - pataas
+4. 0
+5. Hindi matandaan","1. ka 1 hangtod ka 3
+2. ka 4 hangtod ka 7
+3. ka 8 - pataas
+4. 0
+5. Wala nako nakahinumdum",,,
+Done,,recurring-stomach,121,Question,,Paulit-ulit ba itong nangyayari sa iyo?,,Palagi mo ba itong nararanasan o nararamdaman?,Permi bani nimo mabati?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Dili
+3. Wala nako nakahinumdum",,,
+Done,,vomit-stomach,122,Question,,Nagsuka ka ba?,,Nagsuka ka ba nang sumakit ang tiyan mo?,Nagsuka baka pagsakit sa imong tiyan?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. wala nako nakahinumdum",,,
+Done,,vomittimes-stomach,123,Question,,Mga ilang beses?,,"Kung oo, ilang beses kang nagsuka?","Kung oo, kapila ka nisuka?",,,
+Done,,,,Reply,,"1. 1 to 3
+2. 4 to 7
+3. 8 pataas
+4. 0
+5. Hindi ko maalala",,"1. 1 - 3 beses
+2. 4 - 7 beses
+3. 8 beses - pataas
+4. hindi matandaan
+","1. ka 1 hangtod 3 
+2. ka 4 hangtod 7
+3. ka 8 ug pataas
+4. Wala nako nakahinumdum
+",,,
+Done,gu-module,confirmation-uti,124,Question,Did the exam confirmed that you have UTI?,,,Alam mo ba ang resulta galing sa laboratoryo kung may UTI ka?,Nakadawat baka sa resulta gikan sa laboratoryo nga nag ingon nga aduna kay UTI?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo, may UTI.
+2. Walang UTI.
+3. Hindi alam/ hindi sigurado","1. Oo, naay UTI.
+2. Walay UTI.
+3. Wala ko kahibalo",,,
+No Key,,days-inbetween,125,Question,How long it took to get the results?,,,Gaano katagal bago lumabas ang resulta ng eksamen galing sa laboratoryo?,Pila ka adlaw usa nigawas ang resulta sa imong examinasyon gikan sa laboratoryo?,,,
+No Key,,,,Reply,"1. 1 - 3 days
+2. 2 - 3 days
+3. I don't know","1. 1 - 3 araw
+2. 2 - 3 araw
+3. Hindi ko alam",,"1. 1 - 2 araw
+2. 3 - 5 araw
+3. Hindi alam","1. 1 - 2 adlaw
+2. 3 - 5 adlaw
+3. Wala ko kahibalo",,,
+No Key,,hospital-stay-count,126,Question,How many days did you stay in the hospital?,,,Gaano katagal kang naospital?,Pila ka adlaw ka naospital?,,,
+No Key,,,,Reply,"1. 1 - 3 days
+2. 2 - 3 days
+3. I don't know","1. 1 - 3 araw
+2. 2 - 3 araw
+3. Hindi ko alam",,"1. 1 - 2 araw
+2. 3 - 5 araw
+3. Hindi alam/ jhindi sigurado","1. 1 - 2 adlaw
+2. 3 - 5 adlaw
+3. Wala ko kahibalo",,,
+Done,,last-pee-blood,127,Question,When was the last time your pee has blood?,Kailan yung huling beses na may dugo ang iyong ihi?,,Kailan  ka huling beses umihi na may dugo?,Kanus a ka katapusang nangihi nga adunay sagol na dugo?,,,
+Done,,,,Reply,"1. Yesterday
+2. Last week
+3. Last month
+4. Last year
+5. I forgot
+6. I don't know","1. Kahapon
+2. Nakaraang linggo
+3. Nakaraang buwan
+4. Nakaraang taon
+5. Hindi ko maalala
+6. Hindi ko alam",,"1. Kahapon
+2. Nakaraang 1-3 araw 
+3. Nakaraang linggo
+4. Nakaraang buwan
+5. Nakaraang taon
+6. Hindi matandaan","1. gahapon
+2. sa milabay na 1-3 adlaw 
+3. sa miaging semana
+4. sa miaging buwan
+5. sa miaging tuig
+6. Wala nako nakahinumdum",,,
+Done,,medicine-prescribed,128,Question,What are the medicines that got prescibe to you?,,,Ano ang niresetang gamot sa iyo?,Unsa ang gireseta nga tambal nimo?,,,
+Done,,,,Reply,"1. None
+2. I forgot
+3. I don't know","1. Wala
+2. Hindi ko maalala
+3. Hindi ko alam",,"1. Niresetang gamot ay ___________
+2. Walang niresetang gamot
+3. Hindi matandaan/ hindi alam","1. Ang giresitang tambal kay _________.
+2. Walay giresita nga tambal.
+3. Wala nako nakahinumdum.",accepts any answer,,
+Done,,pee-urine-amount,129,Question,"Are you having trouble urinating, is something coming out?",May ihi ba na lumalabas?,,"Hindi ka ba nahihirapang umihi, may lumalabas ba?","Wala baka galisod ug pangihi, aduna rabay mogawas na ihi?",,,
+Done,,,,Reply,"1. There is urine coming out
+2. Nothing comes out
+3. A little bit comes out but not all","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Merong lumalabas na ihi.
+2. Walang lumalabas kahit ihing-ihi na
+3. Medyo may lumalabas pero hindi lahat","1. Wala ra, naa ray mogawas nga ihi
+2. Galisod kay walay mogawas na ihi
+3. Adunay mogawas na ihi pero dili tanan",,,
+Done,,rushed-hospital,130,Question,Were you rushed to the emergency room because of it?,Nasugo ka ba sa emergency room dahil dun?,,Naranasan mo bang dalhin sa ospital dahil sa problema sa pag-ihi?,Nakasuway baka nga nadala ka sa ospital tungod sa imong problema sa pag ihi?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdom",,,
+Done,,urgency-to-pee,131,Question,Do you have the urge to urinate all the time?,Napapadalas ba ang iyong pagihi?,,Pakiramdam mo ba para ka laging naiihi?,Permi ka bang bation ug kaihion?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Mura",,,
+Done,,urinalysis-test-count,132,Question,How many urinalysis tests did the hospital perform?,,,Ilang beses ng naeksamen sa laboratoryo ang ihi mo? ,Kapila na naeksamen sa laboratoryo ang imong ihi?,,,
+Done,,,,Reply,"1. 1 - 3 times
+2. 2 - 3 times
+3. I don't know","1. 1 - 3 beses
+2. 2 - 3 beses
+3. Hindi ko alam",,"1. 1 - 2 beses
+2. 3 - 5 beses
+3. Hindi alam","1. ka 1 - 2 
+2. ka 3 - 5 
+3. Wala ko kahibalo",,,
+Done,,urine-color,133,Question,What is the color of your urine?,Ano ang kulay kadalasan ng iyong ihi?,,Anong kadalasang kulay ng ihi mo?,Unsay kasagarang kolor sa imong ihi?,,,
+Done,,,,Reply,"1. White
+2. Yellowish
+3. Orange
+4. Brownish
+5. Bloody
+6. I don't know","1. Puti
+2. Yellowish
+3. Orange
+4. Brownish
+5. Bloody
+6. Hindi ko alam",,"1. Malinaw na puti
+2. Manilaw-nilaw
+3. Sobrang madilaw
+4. Mala-tsokolate
+5. Mapula parang dugo
+6. Hindi alam","1. tin aw nga puti
+2. yellow yellow
+3. yellow kaayo
+4. murag chocolate
+5. puwa murag dugo
+6. Wala ko kahibalo",,,
+No Key,,urine-comingout,134,Question,,Meron bang lumalabas na ihi?,,May kasama bang lumalabas ng ihi mo?,Aduna bay laing mogawas kauban sa imong ihi?,,,
+No Key,,,,Reply,"1. Yesterday
+2. Last week
+3. Last month
+4. Last year
+5. I forgot
+6. I don't know","1. Meron
+2. Wala
+3. Hindi ko maalala
+4. Hindi ko alam",,"1. Oo, meron.
+2. Wala
+3. Minsan 
+4. Hindi sigurado/ hindi alam","1. Oo, naa
+2. Wala
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,urine-hardtopee,135,Question,Do you have a hard time peeing?,Nahihirapan ka bang umihi?,,Nasasaktan o nahiirapan ka bang umihi?,Masakitan o maglisod baka ug pangihi?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. Sometimes","1. Oo
+2. Hindi
+3. Minsan",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,urine-interventionmeds,136,Question,,Anu-anong gamot ang ininom mo para dito?,,May ininom ka bang gamot para sa problema sa pag-ihi?,Aduna bakay giinum na tambal para sa problema nimo sa pag ihi?,,,
+Done,,,,Reply,,"1. Gamot 1
+2. Wala",,"1. Oo, uminom ako ng _____________
+2. Wala akong ininom kahit na ano.","1. Oo, moinum ko ug _____________
+2. Wala koy giinum na tambal.",accepts any answer,,
+Done,,urine-pain,137,Question,Do you feel pain while peeing?,May nararamdaman ka bang sakit habang umiihi?,,Nasasaktan o nahiirapan ka bang umihi?,Masakitan or maglisod baka ug pangihi?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I don't know","1. Meron
+2. Wala
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo""","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,urine-pain-duration,138,Question,How long you've been experiencing pain while peeing?,Ilang araw na masakit umihi?,,Ilang araw mo nang nararamdaman ang problema sa pag-ihi?,Pila ka adlaw na nimo nabati ang problema sa pag ihi?,,,
+Done,,,,Reply,"1. 1 - 3 days
+2. 4 - 7 days
+3. I don't know","1. 1 - 3 araw
+2. 2 - 3 araw
+3. Hindi ko alam",,"1. 1 - 3 araw
+2. 4 - 7 araw
+3. Hindi matandaan","1. 1 - 3 araw
+2. 4 - 7 araw
+3. Wala nako nakahinumdum",,,
+Done,,urine-pain-lasttime,139,Question,When was the last time it hurts to pee?,Kailan yung huling beses na masakit umihi?,,Kailan mo huling naramdamang masakit/ mahirap umihi?,Kanus a nimo katapusang nabati ang kalisod o kasakit sa pag ihi?,,,
+Done,,,,Reply,"1. Yesterday
+2. Last week
+3. Last month
+4. Last year
+5. More than a year ago
+6. I don't know","1. Kahapon
+2. Nakaraang linggo
+3. Nakaraaang buwan
+4. Nakaraang taon
+5. Hindi ko maalala
+6. Hindi ko alam",,"1. Kahapon 
+2. Nakaraang linggo 
+3. Nakaraang buwan 
+4. Nakaraang taon 
+5. Lagpas isang taon 
+6. Hindi sigurado/ hindi matandaan","1. Gahapon 
+2. atong miaging semana
+3. atong miaging buwan
+4. atong miaging tuig
+5. Lapas na sa usa ka tuig 
+6. Wala  nako nakahinumdum",,,
+Done,,urine-painintensity,140,Question,,,,Gaano kasakit umihi kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati sa pag ihi kung mag score tag 1 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,,,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,,urine-times,141,Question,How many times do you urinate every day?,Ilang beses ka umiihi sa isang araw?,,Ilang beses kang umihi sa loob ng isang araw?,Kapila ka mangihi sa sulod sa usa ka adlaw?,,,
+Done,,,,Reply,"1. 1 - 2 times
+2. 3 - 5 times
+3. I don't know","1. 1 - 3 beses
+2. 2 - 3 beses
+3. Hindi ko alam",,"1. 1 - 2 beses
+2. 3 - 5 beses
+3. Hindi sigurado/ hindi alam","1.  ka 1 hangtod  2 
+2. ka 3 hangtod 5
+3. Wala ko kahibalo",,,
+Done,,uti-causes,142,Question,,Bakit mo ito nararanasan?,,"Sa tingin mo, bakit ka may problema sa pag-ihi?","Sa imong tan aw, unsa kahay rason sa imong problema sa pag ihi?",,,
+Done,,,,Reply,,"1. Food intake
+2. Dehydration
+3. Medication
+4. Pre existing condition
+5. Hindi ko alam",,"1. dahil sa kinain
+2. dahil kulang sa pag-inom ng tubig
+3. dahil sa gamot
+4. dahil sa dating sakit
+5. Hindi alam/ hindi sigurado","1. tungod sa kinaon
+2. tungod kuwang ang pag inum sa tubig
+3. tungod sa tambal
+4. tungod sa karaang sakit
+5. Wala ko kahibalo",accepts any answer,,
+Done,,uti-duration,143,Question,How many days have you been experiencing this?,Nakakailang araw na?,,Ilang araw mo na itong nararanasan?,Pila ka adlaw nani nimo nabati?,,,
+Done,,,,Reply,"1. 1 - 2 days
+2. More than 3 days
+3. I don't know","1. Isa
+2. Dalawa
+3. Tatlo",,"1. 1 - 2 araw 
+2. lagpas 3 araw 
+3. hindi sigurado/ hindi matandaan","1. 1 - 2 araw 
+2. lapas na sa 3 ka adlaw 
+3. Wala ko kahibalo",,,
+Done,,uti-recurring,144,Question,,Paulit-ulit ba itong problema?,,Pabalik-balik ba ang problema mo sa pag-ihi kahit gumaling na?,Mobalik balik ba imong problema sa pag ihi bisan pa ug naayo na imong sakit?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi alam/ hindi sigurado","1. Oo
+2. Hindi
+3. Wala ko kahibalo",,,
+Done,,uti-when,145,Question,When did you first feel pain while urinating?,Kailan ito nagsimula?,,Kailan mo unang beses naramdamang masakit ang pag-ihi?,Kanus a nimo unang nabati ang kasakit sa imong pag ihi?,,,
+Done,,,,Reply,,"1. Kahapon
+2. Nakaraang linggo
+3. Nakaraaang buwan
+4. Nakaraang taon
+5. Hindi ko maalala
+6. Hindi ko alam",,"1. Kahapon
+2. Nakaraang linggo
+3. Nakaraaang buwan
+4. Nakaraang taon
+5. Hindi alam/ hindi sigurado .","1. Gahapon
+2. atong miaging semana
+3. atong miaging buwan
+4. atong miaging tuig
+5. Wala ko kahibalo",accepts any answer,,
+Done,head-module,ache-duration,146,Question,How long have you experienced it?,Gaano katagal mong naranasan ito?,,Napansin mo ba kung gaano katagal ang nararamdaman mong sakit?,Napansin ba nimo kung unsa na kadugay ang imong nabati nga kasakit?,,,
+Done,,,,Reply,"1. Less than a minute
+2. 1 to 30 minutes
+3. 31 to 60 minutes
+4. 1 to 5 hours
+5. More than 5 hours
+6. I do not remember","1. Wala pang 1 minuto
+2. 1 - 30 na minuto
+3. 31 - 60 na minuto
+4. 1 - 5 na oras
+5. Higit sa 5 oras
+6. Hindi ko maalala",,"1. Wala pang isang minuto
+2. 1-30 minuto 
+3. 31-60 minuto 
+4. 1-5 oras
+5. Lagpas 5 oras
+6. Hindi matandaan","1. Wala pay usa ka minuto
+2. 1-30 minuto
+3. 31-60 minuto 
+4. 1-5 oras
+5. Lapas na sa 5 oras
+6. Wala nako nakahinumdum",,,
+Done,,"ache-fever-highest
+temperature",147,Question,what was your highest recorded temperature?,Ano ang pinakamataas na naitala mong temperatura?,,"Nilagnat ka ba?  Kung oo, gaano kataas ang lagnat mo?","Gihilantan ka ba? Kung Oo, unsa kataas ang hilanat nimo?",,,
+,,,,Reply,"1. 37.5 to 37.8
+2. 37.9 to 38.2
+3. 38.3 to 38.6
+4. 38.7 to 39
+5. More than 39
+6. I do not remember","1. 37.5 - 37.8
+2. 37.9 - 38.2
+3. 38.3 - 38.6
+4. 38.7 - 39
+5. Higit sa 39
+6. Hindi ko maalala",,"1. 37.5 - 37.8
+2. 37.9 - 38.2
+3. 38.3 - 38.6
+4. 38.7 - 39
+5. 40 - pataas
+6. walang lagnat","1. 37.5 - 37.8
+2. 37.9 - 38.2
+3. 38.3 - 38.6
+4. 38.7 - 39
+5. 40 - pataas
+6. wala ko hilanti",accepts any answer,,
+Done,,ache-nauseous-count,148,Question,How many times?,Ilang beses?,,"Nakaramdam ka ba na parang masusuka? Kung oo, ilang beses mo itong naranasan?","Nakabati baka ug kasukaon? Kung oo, kapila nani nimo nabati?",,,
+Done,,,,Reply,"1. 1 to 3 times
+2. 4 to 6 times
+3. More than 6 times
+4. I do not remember","1. 1 - 3 beses
+2. 4 - 6 beses
+3. Higit sa 6 na beses
+4. Hindi ko maalala",,"1. 1 - 3 beses
+2. 4 - 6 beses
+3. 7 beses at higit pa
+4. Hindi ito naranasan","1. ka 1 hangtod 3
+2. ka 4 hangtod 6 beses
+3.  ka 7 pataas
+4. Wala ko kasuway",,,
+Done,,"ache-passedout-
+duration",149,Question,How long have you experienced it?,Gaano katagal mong naranasan ito?,,"Hinimatay ka ba? Kung oo, gaano katagal ka nawalan ng malay?","Nakuyapan baka? Kung oo, unsa ka kadugay nakuyapan?",,,
+Done,,,,Reply,"1. Less than a minute
+2. 1 to 5 minutes
+3. 6 to 10 minutes
+4. More than 10 minutes
+5. I do not remember","1. Wala pang isang minuto
+2. 1 - 5 minuto
+3. 6 - 10 minuto
+4. Higit sa 10 minuto
+5. Hindi ko maalala",,"1. Wala pang isang minuto
+2. 1 - 5 minuto
+3. 6 - 10 minuto
+4. lapgas 10 minuto
+5. Hindi ito naranasan","1. Wala pay usa ka minuto
+2. 1 - 5 minuto
+3. 6 - 10 minuto
+4. lapas na sa 10 minuto
+5. Wala ko kasuway",,,
+Done,,"ache-remedy-
+paracetamol",150,Question,Have you taken any paracetamol tablet or syrup?,Uminom ka ba ng anumang paracetamol tablet o syrup?,,Uminom ka ba ng gamot katulad ng paracetamol para sa sakit ng ulo?,Moinum baka ug tambal pareha sa paracetamol para sa labad sa ulo?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Dili
+3. Wala ko kahibalo",,,
+Done,,"ache-remedy-
+sleepnap",151,Question,Have you slept or napped for a long time?,Nakatulog o nag-nap ka ba ng matagal?,Nakatulog o nakaidlip ka ba ng matagal?,Nakaidilip ka ba at nakabawi ng pahinga ang katawan mo?,Nakatulog baka kadali ug nakabawi ug pahuway ang imong lawas?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi alam/ hindi sigurado","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,ache-x-confirmation,152,Question,Did you experience ____ along with it?,Nakaranas ka ba ng ____ kasama nito?,,"Kasabay nito, naranasan mo rin ba ang _____? ","Dungan niini, nakasuway ba sad ka ug ________.",,,
+Done,,,,Reply,"1. Yes
+2. Sometimes
+3. No
+4. I do not remember","1. Oo
+2. Minsan
+3. Hindi
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi alam/ hindi sigurado","1. Oo
+2. Wala
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,head-affected-part,153,Question,In which part did you experience it?,Saang parte mo ito naramdaman?,,Saang bahagi mo naramdaman ang sakit ng ulo mo? ,Asa dapita nimo nabati ang sakit sa ulo?,,,
+Done,,,,Reply,"1. Front
+2. Back
+3. Left side
+4. Right side
+5. I do not remember","1. Sa harapan
+2. Sa likuran
+3. Sa kaliwa
+4. Sa kanan
+5. Hindi ko maalala",,"1. sa bandang harapan
+2. sa bandang likuran
+3. sa bandang kaliwa
+4. sa bandang kanan
+5. Hindi sigurado/ hindi alam","1. sa atubangan
+2. sa likod
+3. sa wala
+4. sa too
+5. Wala ko kahibalo",,,
+Done,,head-checkup,154,Question,Did you have a check-up with your doctor?,Nagpa-check-up ka ba sa iyong doktor?,,Nagpatingin ka na ba sa doktor?,Nagpatan aw na ba ka sa doctor?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi pa
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala pa
+3. Wala ko kahibalo",,,
+Done,,"head-discomfort-
+intensity",155,Question,"From a scale of 1 to 10, how would you rate your discomfort on it?","Mula 0 hanggang 10, paano mo ire-rate ang iyong discomfort dito?","Mula 0 hanggang 10, gaano ka nahihirapan dahil dito?",Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,"1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10","1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10",,"
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10","
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10",,,
+Done,,head-lasttime,156,Question,How long since you last experienced it?,Gaano katagal mula noong huli mong naranasan ito?,,Gaano katagal ang sakit ng ulo mo nang huli mo itong naramdaman?,Unsa kadugayon nga nabati nimo ang kasakit sa imong ulo niatong katapusang higayon nga misakit kini?,,,
+Done,,,,Reply,"1. 5 days to 1 week
+2. 1 to 2 weeks
+3. More than 2 weeks
+4. I do not remember","1. 5 araw -1 linggo
+2. 1 - 2 linggo
+3. Higit sa 2 linggo
+4. Hindi ko maalala",,"1. 5 - 6 araw 
+2. 7- 14 araw
+3. lagpas 2 linggo
+4. Hindi matandaan","1. 5 - 6 adlaw
+2. 7- 14 adlaw
+3. lapas na sa 2 ka semana                   4. Wala nako nakahinumdum",,,
+Done,,head-otherinterventions,157,Question,Is there any other intervention being done here?,May ibang interventions na ginawa dito?,May iba pa bang interbensyon na ginawa?,May ibang paraan ka bang ginawa?,Aduna bakay lain gibuhat?,,,
+,,,,Reply,"1. Physical exercise
+2. Nothing","1. Pisikal na ehersisyo
+2. Wala",,"1. Nag-ehersisyo
+2. Wala, pinabayaan lang","1. Nag-ehersisyo
+2. Wala, gipasagdahan ra",accepts any answer,,
+Done,,head-recurring,158,Question,Have you experienced pain over and over again?,Paulit-ulit mo bang naranasan ang sakit?,Paulit-ulit mo bang naranasan ang pananakit?,Pabalik-balik ba ang pananakit ng ulo mo?,Magbalik balik ba ang pagsakit sa imong ulo?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,"head-timebefore
+recovered",159,Question,How long did it take before the discomfort was relieved?,Gaano katagal bago naibsan ang discomfort?,Gaano katagal bago naibsan ang pananakit?,Gaano katagal bago nawala ang kirot/ sakit?,Unsa kadugay usa nawala ang sakit?,,,
+Done,,,,Reply,"1. Immediately
+2. Seconds only
+3. Minutes only
+4. Hours only
+5. More than 24 hours
+6. I do not remember","1. Agad-agad
+2. Mga segundo lang
+3. Mga minuto lang
+4. Mga oras lang
+5. Higit sa 24 oras
+6. Hindi ko maalala",,"1. Isang iglap
+2. Ilang segundo 
+3. Ilang minuto 
+4. Umabot ng ilang oras 
+5. Lagpas 24 oras
+6. Hindi matandaan","1. nikalit lang kawala
+2. pipila ka segundo
+3. pipila ka minuto
+4. miabot ug pila ka oras 
+5. nilapas ug 24 ka oras
+6. wala nako nakahinumdum",,,
+Done,,head-x-confirmation,160,Question,Did you have ____?,Nagkaroon ka ba ng ____?,,Meron ka bang ________?,Aduna ba kay ________?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not know","1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,injury-causes,161,Question,Why did you have a head injury?,Bakit ka nagkaroon ng injury sa iyong ulo?,,Bakit may sugat/ pinsala ang ulo mo?,Nganong adunay samad ang imong ulo?,,,
+Done,,,,Reply,"1. Slipped/fell down
+2. Car accident
+3. Violence
+4. Other reasons
+5. I do not remember","1. Nadulas/nahulog
+2. Nabangga ng sasakyan
+3. Karahasan
+4. Ibang dahilan
+5. Hindi ko maalala",,"1. Nadulas/ nahulog
+2. Nabangga ng sasakyan
+3. Nabugbog/ napalo
+4. Ibang dahilan ________
+5. Hindi matandaan","1. Naslide o natagak ko
+2. Nabangga ug sakyanan
+3. Nakulatahan o nabunalan
+4. Adunay laing rason ________
+5. Wala nako nakahinumdum",,,
+Done,,injury-hadblindness,162,Question,Have you lost your sight?,Nawalan ka ba ng paningin?,,Nagdilim ba ang paningin mo?,Ningitngit ba ang imong panan aw?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,injury-haddizziness,163,Question,Did you feel dizzy?,Nahilo ka ba?,,Nahilo ka ba?,Nalipong baka?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,injury-hadhospitalized,164,Question,Were you rushed to the hospital?,Na-isugod ka ba sa ospital?,,Nadala ka ba agad sa ospital?,Nadala baka dayon sa ospital?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,injury-hadpassedout,165,Question,Did you passed out?,Hinimatay ka ba?,,Nawalan ka ba ng malay?,Nakuyapan baka?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,injury-hadvomitted,166,Question,Did you vomit?,Nagsuka ka ba?,,Nagsuka ka ba?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ,Nisuka baka?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako kahinumdum",,,
+Done,,injury-remedy-coldpack,167,Question,Did you put a cold pack on your head?,Naglagay ka ba ng cold pack sa iyong ulo?,,Nalagyan ba ng yelo ang ulo mo?,Nabutangan ba ug ice imong ulo?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,"injury-remedy-painkiller
+meds",168,Question,Did you take painkiller medications like phenytoin and carbamazepine?,Uminom ka ba ng painkiller na gamot tulad ng phenytoin at carbamazepine?,,Napainom ka ba ng tabletang pamanhid sa sakit/ kirot katulad ng phenytoin o carbamazepine?,Nag inum baka ug tambal nga maka manhid sa sakit pareha sa phenytoin o carbamazepine?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+No Key,,injury-remedy-undergonepmtrainingtherapies,169,Question,Have you undergone physical and mental training or therapy?,Sumailalim ka ba sa mga pisikal at mental na training o therapy?,,"Nabigyan ka ba ng therapy, physical at mental training?","Natagaan baka ug therapy, pisikal o mental na training?",,,
+No Key,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,injury-wounds,170,Question,Did your head bleed?,Dumugo ba ang iyong ulo?,,Nagkasugat o dumugo ba ang ulo mo?,Nasamad o nagdugo ba ang imong ulo?,,,
+Done,,,,Reply,"1. Yes 
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+No Key,nose-module,bleeding-nose,171,Question,,Nakaranas ka ba ng pagdudugo ng iyong ilong?,,Dumugo bang ilong mo?,Gadugo ba ang imong ilong?,,,
+No Key,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,dur-obstruct-nose,172,Question,,Gaano katagal itong nasa ilong mo?,,Gaano na katagal sa loob ng ilong mo ang bagay na ito?,Unsa kadugay na ang butang sa sulod sa imong ilong?,,,
+Done,,,,Reply,,,,,no choices,,,
+Done,,duration-nose,173,Question,,Gaano katagal mong naranasan ang pananakit?,,Gaano katagal mo naramdaman ang kirot/ sakit?,Unsa kadugay na ang imong nabating kasakit?,,,
+Done,,,,Reply,,,,,no choices,,,
+Done,,firstoccur-nose,174,Question,,Kailan mo huling naramdaman ang pananakit ng iyong ilong?,,Kailan mo unang naranasan ang problemang ito sa ilong mo?,Kanus a nimo unang namatngonan ang problema sa imong ilong?,,,
+Done,,,,Reply,,,,,no choices,,,
+Done,,has-nosepain,175,Question,,Nakaramdam ka ba ng sakit sa iyong ilong?,,Sumasakit bang ilong mo?,Nagsakit ba ang imong ilong?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi matandaan","1. Oo
+2. wala
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,"hasremoved-obstruct-
+nose",176,Question,,Natanggal na ba ang ito sa iyong ilong?,,Natanggal na ba sa loob ng ilong mo ang bagay na ito?,Natangtang naba ang butang na nasoksok sa imong ilong?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,infect-obstruct-nose,177,Question,,Mayroon ka bang nakitang sintomas ng inpeksyon?,,Napansin mo ba kung may nana ang ilong mo?,Nakapansin baka nga adunay nana nga nigawas sa imong ilong?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo, meron
+2. Wala
+3. Hindi sigurado/ hindi alam","1. Oo, naa
+2. Wala koy napansin
+3. Wala ko kahibalo",,,
+No Key,,itching-nose,178,Question,,Nakaranas ka ba ng pagngangati sa iyong ilong?,,Sobra bang nangangati ang ilong mo?,Nangatol ba ug sobra ang imong ilong?,,,
+No Key,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Wala
+3. Medyo",,,
+Done,,object-obstruct-nose,179,Question,,Ano ang nakapasok sa iyong ilong?,,Alam mo ba kung ano ang bagay na pumasok sa loob ng ilong mo?,Nakahibalo baka ug unsa na butang ang nisulod sa imong ilong?,,,
+Done,,,,Reply,,,,,no response,,,
+Done,,obstruction-nose,180,Question,,May eksternal bagay ba na nakapasok sa iyong ilong?,,Sigurado ka bang may nakapasok sa loob ng ilong mo kaya sumasakit ito?,Sigurado baka nga adunay nisulod sa imong ilong mao ng nisakit kini?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,painintensity-nose,181,Question,,Gaano ka sakit ito (1-10)? 10 bilang pinakamasakit,,Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,,,,no response,,,
+Done,,parthurt-nose,182,Question,,Aling parte ng iyong ilong ang sumasakit?,,Kaya mo bang sabihin kung saan banda sa ilong mo ang masakit?,Kaya ba nimong esulti ug asa dapit sa imong ilong ang nagsakit?,,,
+Done,,,,Reply,,,,,no response,,,
+Done,,recurring-nose,183,Question,,Naranasan mo na ba ito dati?,,Pabalik-balik ba ang pananakit ng ilong mo?,Magbalik balik ba ang kasakit sa imong ilong?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. Dili
+3. Wala ko kahibalo",,,
+No Key,,redness-nose,184,Question,,Nakaranas ka ba ng pamumula ng iyong ilong?,,Namula ba ang ilong mo?,Namuwa ba ang imong ilong?,,,
+No Key,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. wala
+3. Wala ko kahibalo",,,
+Done,,removed-obstruct-nose,185,Question,,Paano ito tinanggal?,,Natanggal ba ito sa loob ng ilong mo? ,Natangtang ba ang naa sa sulod sa imong ilong?,,,
+Done,,,,Reply,,,,,,,,
+No Key,,swelling-nose,186,Question,,Nakaranas ka ba ng pagmamaga sa iyong ilong?,,Namaga ba ang ilong mo?,Nihubag ba ang imong ilong?,,,
+No Key,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,"unremoved-obstruct-
+nose",187,Question,,Nakapagcheck-up ka na ba tungkol dito?,,Napatingnan mo na ba sa doktor ang problema sa ilong mo?,Napatan aw ba nimo sa doctor ang problema nimo sa ilong?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko alam",,"1. Oo
+2. Hindi
+3. Hindi matandaan/ hindi alam","1. Oo
+2. Dili
+3. Wala ko kahibalo",,,
+Done,skin-module,"blisrash-remedy-
+appliedointment",188,Question,Did you apply ointment to the affected areas?,Nagpahid ka ba ng ointment sa mga apektadong lugar?,,May ipinahid ka bang gamot sa bahagi ng balat mo na may problema?,Aduna bakay ipahid na tambal sa parte sa imong panit na adunay problema?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Meron
+2. Wala
+3. Hindi matandaan ","1. Aduna
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,"blisrash-remedy-
+usedicepack",189,Question,Did you apply an ice pack or cold compress to the affected areas?,Naglagay ka ba ng ice pack o cold compress sa mga apektadong lugar?,,Nilagyan mo ba ng malamig na bimpo o yelo ang  bahagi ng balat na may pinsala/ problema?,Gibutangan ba nimo ug bugnaw na panapton ang parte sa panit na adunay problema?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,blisters-didpop,190,Question,Did you pop it?,Pinutok mo ba ito?,,Pumutok o nabutas ba ang paltos mo sa balat?,Nibuto o napaksit ba ang tubig tubig sa imong panit?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahihumdum",,,
+Done,,"bliswound-remedy-
+didapplybandage",191,Question,Did you apply any bandages or dressings?,Naglagay ka ba ng anumang bandage o dressing?,,Nilinis at binalot ba ang sugat?,Gilimpyohan ug gitabunan ba nimo ang samad?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. wala
+3. Wala nako nakahihumdum",,,
+Done,,bruises-initialcolor,192,Question,What is the initial color of your bruises? ,Ano ang initial na kulay ng iyong mga pasa?,"Sa simula, ano ang kulay ng iyong mga pasa?",Anong kulay ng mga pasa sa simula?,Unsa ang kolor sa mga bun og pag sugod?,,,
+Done,,,,Reply,"1. Yellow
+2. Blue
+3. Purple
+4. Pink/red
+5. Other color
+6. I do not remember","1. Dilaw
+2. Asul
+3. Kulay-ube
+4. Kulay-rosas/pula
+5. Ibang kulay
+6. Hindi ko maalala",,"1. Dilaw
+2. Asul
+3. Kulay-ube
+4. Kulay-rosas/mapula
+5. Ibang kulay
+6. Hindi matandaan","1. Yellow
+2. Blue
+3. violet
+4. puwa
+5. lahi lahi ug kolor
+6. Wala nako nakahinumdum",,,
+Done,,"bruises-remedy-
+didcompletefirstaid",193,Question,"Did you apply first-aid? (Cold compress for 1 to 2 days, then warm compress for the succeeding ones)","Nag-apply ka ba ng first-aid? (Cold compress para sa 1 hanggang 2 araw, pagkatapos ay warm compress para sa mga susunod na araw)","Naglapat ka ba ng first aid? (Cold compress para sa 1 hanggang 2 araw, pagkatapos ay warm compress para sa mga susunod na araw)","Nagawa ba ang paunang lunas sa una at ikalawang araw, nalagyan ba ng malamig na bimpo/ binalot na yelo sa apektadong bahagi; at sa kasunod na ika-3 at ika-4 ay naipatong ang bimpo o may takip na boteng may maligamgam na tubig?","Natambalan ba dayon  ang problema sa sulod sa 1 hangtod 2 ka  adlaw, nabutangan ba ug panapton o giputos ug ice ang apektadong parte; ug sa sunod na ika 3 hangtod ika 4  na adlaw kay napatong ba ang panapton o tinakobang botelya na adunay tubig na sakto sa kainiton o kabugnawon?",,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,rashes-doesscratch,194,Question,Did you scratch those rashes?,Kinamot mo ba ang mga pantal na iyon?,,Kinamot mo ba ang mga pantal/ butlig?,Gikatol ba nimo ang buti buti o butlig?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,rashes-isitchy,195,Question,Is it itchy?,Makati ba?,,Sobra bang nangangati?,Sobra ba kini kakatol?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Medyo","1. Oo
+2. Dili
+3. Medyo",,,
+Done,,rashes-type,196,Question,What does the rash look like?,Anong itsura ng pantal?,,Anong hitsura ng pantal/ butlig?,Unsay hitsura sa buti buti o butlig?,,,
+Done,,,,Reply,"1. Round
+2. Pin point
+3. Blister forming
+4. I do not remember","1. Mabilog
+2. Matulis
+3. Blister forming
+4. Hindi ko maalala","1. Mabilog
+2. Matulis
+3. May namumuong paltos
+4. Hindi ko maalala","1. Pabilog
+2. Patulis
+3. May tubig-tubig 
+4. Hindi matandaan","1. Linginon
+2. Hait
+3. adunay tubig-tubig 
+4. Wala nako nakahinumdum",,,
+Done,,skco-affectedbodyparts,197,Question,Which part of your body is affected?,Aling bahagi ng iyong katawan ang apektado?,,Aling bahagi ng katawan mo ang apektado?,Unsa na parte sa imong lawas ang apektado?,,,
+Done,,,,Reply,"1. Face
+2. Chest area
+3. Back area
+4. Hands or arms
+5. Feet
+6. I do not remember","1. Mukha
+2. Dibdib
+3. Sa likuran
+4. Kamay/braso
+5. Paa
+6. Hindi ko maalala",,"1. Sa mukha
+2. Bandang dibdib
+3. Bandang likuran
+4. Sa kamay/ braso
+5. Sa Paa
+6. Hindi matandaan","1. Sa nawong
+2. Sa dughan
+3. sa may likod
+4. Sa kamot o braso
+5. Sa tiil
+6. Wala nako nakahinumdum",,,
+Done,,skco-causes,198,Question,Why did you have ____?,Bakit ka nagkaroon ng ____?,,Bakit nagkaroon ka nito?,Nganong nagka ingon ana man ka?,,,
+Done,,,,Reply,,"1. Sunburn
+2. Skin irritants
+3. Human fault
+4. Ibang dahilan
+5. Hindi ko maalala","1. Sunburn
+2. Skin irritants
+3. Dulot ng tao
+4. Ibang dahilan
+5. Hindi ko maalala","1. Sobrang nabilad sa araw 
+2. May ipinahid sa balat
+3. Nasaktan ng ibang tao 
+4. Ibang dahilan
+5. Hindi matandaan","1. Nasobrahan buwad sa init 
+2. Adunay gipahid sa panit
+3. Napasakitan ug laing taw
+4. Adunay laing rason
+5. Wala nako nakahinumdum",,,
+Done,,skco-didcheckup,199,Question,Did you have a check-up with your doctor regarding this?,Nagpa-check-up ka ba sa imong doktor ukol sa iyong kondisyon sa balat?,Nagpa-check-up ka ba sa iyong doktor tungkol sa kondisyon mo sa balat?,Natingnan na ba ng doktor ang problema mo sa balat? ,Natan aw ba sa doctor ang imong problema sa panit?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,skco-lasttime,200,Question,How long since you last experienced it?,Gaano katagal mula noong huli mong naranasan ito?,Gaano na katagal mula noong huli mo itong naranasan?,Gaano katagal na ang kondisyong ito ng balat mo?,Unsa nani kadugay ang nabati nimong kondisyon sa panit?,,,
+Done,,,,Reply,"1. 5 days to 1 week
+2. 1 to 2 weeks
+3. More than 2 weeks
+4. I do not remember","1. 5 araw - 1 linggo
+2. 1 - 2 linggo
+3. Higit sa 2 linggo
+4. Hindi ko maalala",,"1. 5 - 7 araw 
+2. 8 - 14 araw
+3. lagpas 2 linggo
+4. Hindi matandaan","1. 5 - 7 ka adlaw 
+2. 8 - 14 ka adlaw
+3. lapas na sa 2 ka semana
+4. Wala nako nakahinumdum",,,
+Done,,skco-otherinterventions,201,Question,What are the other interventions you did?,Ano pang mga interbensyon ang nagawa mo?,,Ano ang ginawa mong ibang paraan para gamutin ito?,Unsa pay laing pamaagi na imong gibuhat para matambalan ang problema?,,,
+Done,,,,Reply,1. Physical exercise,1. Pisikal na ehersisyo,,,no response,,,
+Done,,skco-painintensity,202,Question,"From a scale of 0 to 10, how would you rate your ____ on it?","Mula 0 hanggang 10, paano mo ire-rate ang iyong ____ dito?","Mula 0 hanggang 10, gaano ka-____ ito?",Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,"1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10","1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10",,"1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. hindi masakit","1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. walay sakit",,,
+Done,,skco-recurring,203,Question,Was this a recurring problem?,Paulit-ulit bang nangyari ito?,,Naranasan mo ba kung umuulit o pabalik-balik ang kondisyong ito sa balat mo?,Nakasuway baka nga nagbalik balik ang imong sakit?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,skco-timerecovered,204,Question,How long did it take before the ____ was relieved?,Gaano katagal bago na-relieve ang ____?,Gaano katagal bago ka naginhawaan mula sa ____?,Gaano katagal bago bumuti o bumalik sa karaniwang kondisyon ang balat mo?,Unsa kadugay naayo o nabalik sa normal ang kondisyon sa sa imong panit?,,,
+Done,,,,Reply,"1. Immediately
+2. Seconds only
+3. Minutes only
+4. Hours only
+5. More than 24 hours
+6. I do not remember","1. Agad-agad
+2. Mga segundo lang
+3. Mga minuto lang
+4. Mga oras lang
+5. Higit sa 24 oras
+6. Hindi ko maalala",,"1. Isang iglap
+2. Ilang segundo 
+3. Ilang minuto 
+4. Umabot ng ilang oras 
+5. Lagpas 24 oras
+6. Hindi matandaan","1. Kalit lang
+2. Pipila ka segundo
+3. Pipila ka minuto
+4. Pipila ka oras
+5. Lapas 24 oras
+6. Wala nako nakahinumdum",,,
+Done,,skco-x-confirmation,205,Question,Did you have ____?,Nagkaroon ka ba ng ____?,,Nagkaroon ka ba ng _______?,Nagka  _______ ba ka?,,,
+Done,,,,Reply,"1. Yes
+2. No
+3. I do not remember","1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,wounds-type,206,Question,What type of wound?,Anong klaseng sugat ito?,,Anong itsura ng sugat?,Unsay hitsura sa imong samad?,,,
+Done,,,,Reply,"1. Abrasion
+2. Laceration
+3. Avulsion
+4. Puncture
+5. I do not remember or know","1. Abrasion
+2. Laceration
+3. Avulsion
+4. Puncture
+5. Hindi ko maalala o alam","1. Gasgas
+2. Laceration
+3. Avulsion
+4. Puncture
+5. Hindi ko maalala o alam","1. Nagasgas/ Nalapnos
+2. Nahiwa/ Nalaslas
+3. Natipak/ Nasabugan
+4. Natusok
+5. Hindi sigurado/ hindi alam","1. Nagasgas o napaksot
+2. Nahiwa/nagisi
+3. Natipak/ nibuto
+4. Natusok
+5. Wala ko kahibalo",,,
+Done,"heart-lungs-
+module",dig-avoidfoodsanddrinkstriggering,207,Question,,Iniiwasan mo ba ang mga pagkain at inumin tulad sa fast food at mga chichirya?,Iniiwasan mo ba ang mga pagkain at inumin tulad ng fast food at mga chichirya?,"Palagi ka bang kumain ng mga sitsirya (hal. Chippy), burger, balat ng manok, taba ng baboy, at iba pang katulad nito?","Permi baka mokaon ug junkfood (example. Chippy), burger, panit sa manok, tambok sa baboy ug uban pa?",,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi matandaan","1. Oo
+2. Dili
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,dig-drinkwaterorprobioticsplenty,208,Question,,Ilang beses ka uminom ng tubig o probiotic na inumin?,Ilang beses ka umiinom ng tubig o probiotics?,Ilang beses kang umiinom ng tubig o ng probiotic (hal. Yakult)? ,Ikapila naka nakainum ug tubig o probiotic (hal. Yakult)?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas",,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas","1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas",,,
+Done,,dig-hospitalization,209,Question,,Na-ospital ka ba dahil dito?,,Naranasang mo bang maospital dahil dito?,Nakasuway baka nga naospital tungod niini?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Wala ko kahibalo",,,
+Done,,dig-situpsvsregurgit,210,Question,,Ilang beses ka nag-sit up para labanan ang regurgitation?,,Ilang beses kang nagsit-up para pigilang lumabas sa iyong ilong at bibig ang nilunok mong inumin at/o pagkain?  ,Kapila ka nag sit up para dili mogawas sa imong ilong ug baba ang gitulon nimo na tambal o pagkaon?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas",,"1. 0
+2. 1 - 3 beses
+3. 4 - 6 beses
+4. 7 beses - pataas","1. 0
+2. ka 1 - 3
+3. ka 4 - 6
+4. ka 7 - pataas",,,
+Done,,heart-lungs-x-confirmation,211,Question,,Sumakit ba ang iyong dibdib dahil sa ____?,,Nakaramdam ka ba ng pananakit ng dibdib dahil sa _______?,Nakasuway baka nga misakit ang imong dughan tungod sa _______?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,heart-lungs-x-duration,212,Question,,Gaano katagal mong naranasan ang pananakit sa iyong dibdib dahil sa _____?, ,Gaano katagal ang pananakit ng dibdib mo dahil sa _____?,Unsa kadugayon ang kasakit sa imong dughan tungod sa ____?,,,
+Done,,,,Reply,,"1. Wala pa isang minuto
+2. Wala pa isang oras
+3. Wala pa isang araw
+4. Wala pa isang buwan
+5. Higit sa 1 buwan
+6. Hindi ko maalala","1. Wala pang isang minuto
+2. Wala pang isang oras
+3. Wala pang isang araw
+4. Wala pang isang buwan
+5. Higit sa isang buwan
+6. Hindi ko maalala","1. Wala pang isang minuto
+2. Wala pang isang oras
+3. Wala pang isang araw
+4. Wala pang isang buwan
+5. Higit sa isang buwan
+6. Hindi matandaan","1. Wala pay usa ka minuto
+2. Wala pay usa ka oras
+3. Wala pay usa ka adlaw
+4. Wala pay usa ka buwan
+5. Lapas na sa usa ka buwan
+6. Wala nako nakahinumdum",,,
+Done,,heart-lungs-x-lasttime,213,Question,,Kailan mo huling naranasan ito?,,Kailan mo ito huling naramdaman?,Kanus a ni nimo katapusang nabati?,,,
+Done,,,,Reply,,"1. Ngayon / kanina lang
+2. Kahapon
+3. 2 - 4 araw nakalipas
+4. 5 - 7 araw nakalipas
+5. Higit sa 1 linggo
+6. Higit sa 1 buwan
+7. Hindi ko maalala",,"1. Ngayon/ kanina lang
+2. Kahapon
+3. Nakaraang 2-4 araw 
+4. Nakaraang 5-7 araw                                                                       5. Higit isang linggo na
+6. Higit isang buwan na 
+7. Hindi matandaan","1. karon o ganina lang
+2. Gahapon
+3. sa milabay na 2-4 ka adlaw 
+4. sa milabay na 5-7 adlaw                                                                       5. Lapas na sa usa ka semana
+6. Lapas na sa usa ka buwan
+7. Wala nako nakahinumdum",,,
+Done,,heart-lungs-x-otherinterventions,214,Question,,Ano pa ang ibang ginawa mong interbensyon para maibsan ang iyong sakit sa dibdib?,,Anong ginawa mo na ibang paraan para mabawasan ang pananakit ng iyong dibdib?,Unsay ubang pamaagi na imong gibuhat para makuhaan ang kasakit sa dughan?,,,
+Done,,,,Reply,,,,,no choices,,,
+Done,,heart-lungs-x-painintensity,215,Question,,"Mga 0 hanggang 10, paano mo marerate ang iyong naramdamang sakit?","Mula 0 hanggang 10, kung saan 10 ang pinakamataas, gaano kasakit?",Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,"1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10
+12. Hindi ko maalala",,"
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. Hindi matandaan","
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. Wala nako nakahinumdum",,,
+Done,,heart-lungs-x-relief,216,Question,,"Base sa mga nabanggit mo, gaano katagal bago naibsan ang sakit sa iyong dibdib?",,Natatandaan mo ba kung gaano katagal bago nawala o nabawasan ang pananakit ng dibdib mo?,Nakahinumdum baka kung unsa kadugay usa nawala o nakuhaan ang pagsakit sa imong dughan?,,,
+Done,,,,Reply,,"1. Mga segundo lang
+2. Mga minuto lang
+3. Mga ilang oras lang
+4. Higit sa 24 oras
+5. Hindi ko maalala",,"1. Ilang segundo lang
+2. Ilang minuto lang
+3. Umabot ng ilang oras                                                                      4. Lumagpas ng 24 oras
+5. Hindi sigurado/ hindi matandaan","1. pipila ka segundo
+2. pipila ka minuto
+3. miabot ug pipila ka oras                                                               4. milapas ug 24 ka oras
+5. Wala nako nakahinumdum",,,
+Done,,hl-hospitalization,217,Question,,Na-ospital ka ba dahil dito?,,Naospital ka ba dahil dito?,Naospital baka tungod niini?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. Wala
+3. Wala nako nakahinumdum",,,
+Done,,hl-prescribedaspirintype,218,Question,,"Uminom ka ba ng mga tabletas tulad ng mga pampaluwag ng ugat, aspirin, pampanipis ng dugo o anumang iba pang kaugnay na gamot?",,Uminom ka ba ng aspirin o ibang tableta na pampaluwag ng ugat o pampanipis ng dugo?,Miinum baka ug aspirin o tabletang pampaluag sa ugat o pampanipis sa dugo?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi alam","1. Oo
+2. Wala
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,hl-shortnessofbreath,219,Question,,Nahirapan ka bang huminga noong panahon na yun?,,Nahirapan ka bang huminga nang sumakit ang dibdib mo? ,Naglisod baka ug ginhawa atong nisakit ang imong dughan?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Hindi matandaan","1. Oo
+2. wala
+3. Wala nako nakahinumdum",,,
+Done,,spasms-stretchedmassagedmuscle,220,Question,,Ilang beses mong namasahe ang bahagi ng iyong kalamnan?,,Ilang beses mong hinilot/ hinagod ang iyong mga kalamnan habang namamanhid/ nangingimay? ,Kapila nimo gihilot ang imong kaunuran kung kini mo binhod o mosakit?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas",,"1. 1-3 beses
+2. 4-6 beses
+3. 7 beses - pataas
+4. hindi ginalaw ang kalamnan","1. ka 1-3
+2. ka 4-6
+3. ka 7-pataas
+4. wala ray gibuhat",,,
+Done,,spasms-takenpainkillers,221,Question,,"Uminom ka ba ng mga painkiller na gamot tulad ng ibuprofen, aspirin at Tylenol? ","Uminom ka ba ng mga painkiller tulad ng ibuprofen, aspirin at Tylenol? ","Uminom ka ba ng mga tabletang pantanggal ng kirot katulad ng ibuprofen, aspirin, at Tylenol?","Moinum baka ug tabletang pawala sa sakit pareha sa Ibuprofen, aspirin, at Tylenol?",,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Dili
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,spasms-warmshower,222,Question,,Ilang beses kang naligo sa mainit-init na tubig?,,Ilang beses kang naligo na maligamgam ang tubig para mabawasan ang kirot ng iyong mga kalamnan?,Kapila ka naligo ug init init na tubig para makuhaan ang kasakit sa imong kaunuran?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas
+5. Hindi ko maalala",,"1. 1-3 beses 
+2. 4-6 beses 
+3. 7 beses - pataas
+4. hindi naligo
+5. Hindi matandaan ","1. ka 1-3
+2. ka 4-6
+3. ka 7 - pataas
+4. Wala ko naligo
+5. Wala nako nakahinumdum",,,
+Done,,sta-antidepressants,223,Question,,Uminom ka ba ng mga anti-depressants?,,Uminom ka ba ng mga gamot na anti-depressant?,Moinum baka ug tambal para pawala sa kagool?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi alam","1. Oo
+2. Dili
+3. Usahay
+4. Wala ko kahibalo",,,
+Done,,sta-breathingexercises,224,Question,,Ilang beses ka nag-breathing exercise?,,Ilang beses mong ginagawa ang ehersisyo para sa malalim na paghinga?,Kapila nimo buhaton ang pag ehersisyo para sa lawom na pag ginhawa?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas
+5. Hindi ko maalala",,"1. 1-3 beses
+2. 4-6 beses
+3. 7 beses - pataas
+4. Hindi matandaan
+5. Hindi nag-eehersisyo ng malalim na paghinga","1. ka 1-3
+2. ka 4-6
+3. ka 7 - pataas
+4. Wala nako nakahinumdum
+5. Dili mag ehersisyo sa lawom na pag ginhawa",,,
+No Key,mouth-throat-teeth-module,mouthsore-count,225,Question,,Ilan ang mga sugat sa iyong bibig?,,Napansin mo ba kung ilan ang sugat sa bibig mo?,Napansin ba nimo ug pila kabook ang samad sa imong baba?,,,
+No Key,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas
+5. Hindi ko nabilang",,"1. tingin ko nasa 1-3 
+2. tingin ko nasa 4-6 
+3. tingin ko 7 - pataas
+4. hindi ko mabilang
+5. tingin ko wala namang sugat","1. sa akong tan aw naa sa 1-3 
+2. sa akong tan aw naa sa 4-6 
+3. sa akong tan aw naa sa 7 - pataas
+4. Dili na nako maihap
+5. sa akong tan aw wala ray samad",,,
+Done,,mouthsore-didtakeoralgel,226,Question,,Nag-apply ka ba ng daktarin o kahit anong klase ng oral gel sa iyong bibig?,,May ipinahid ka bang gamot sa bibig mo katulad ng Daktarin oral gel? ,Aduna bakay gipahid sa imong baba pareha sa Daktarin oral gel?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,mtth-brushtimes,227,Question,,Ilang beses ka nagsisipilyo sa pang-karaniwang araw?,Ilang beses ka nagsesepilyo sa isang araw?,Ilang beses kang magsepilyo sa loob ng isang araw?,Kapila ka mag toothbrush sa sulod sa usa ka adlaw?,,,
+Done,,,,Reply,,"1. Wala pang 3 beses
+2. 3  - 5 beses
+3. Higit sa 5 beses
+4. Hindi ko maalala",,"1. 1-2 beses
+2. 3-5 beses
+3. lagpas ng 5 beses
+4. Hindi matandaan","1. ka 1-2 
+2. ka 3-5
+3. lapas ug ka 5 
+4. Wala nako nakahinumdum",,,
+Done,,mtth-checkup-reason,228,Question,,Ano ang pinagawa?,,Bakit ka nagpatingin sa dentista?,Nganong nagpatan aw man ka sa dentista?,,,
+Done,,,,Reply,,,,,no choices,,,
+Done,,mtth-lastcheckup,229,Question,,Kailan ang huli mong check-up sa iyong dentista?,,Kailan ka huling nagpunta sa dentista?,Kanus a ka katapusang nibisita sa dentista?,,,
+Done,,,,Reply,,"1. Ngayon / kanina lang
+2. Kahapon
+3. 2 - 4 araw nakalipas
+4. 5 - 7 araw nakalipas
+5. Higit sa 1 linggo
+6. Higit sa 1 buwan
+7. Hindi ko maalala",,"1. Ngayon/ kanina lang
+2. Kahapon
+3. Nakaraang 2-4 araw 
+4. Nakaraang 5-7 araw 
+5. Lagpas ng isang linggo 
+6. Lagpas ng isang buwan
+7. Hindi sigurado/ hindi matandaan","1. karon o ganina lang
+2. Gahapon
+3. 2-4 ka adlaw na ang milabay 
+4. 5-7 ka adlaw  na ang milabay 
+5. Lapas na sa usa ka semana
+6. Lapas na sa usa ka buwan
+7. Wala nako nakahinumdum",,,
+Done,,mtth-x-confirmation,230,Question,,Nakaranas ka ba ng ____?,,Naranasan mo na ba ang ______?,Nakasuway naba ka ug  ______?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Wala
+3. Usahay
+4. Wala nako nakahinumdum",,,
+Done,,mtth-x-duration,231,Question,,Gaano katagal mong naranasan ang ____?,,Gaano katagal ang naranasan mong ______?,Unsa kadugay na ang imong gibati nga ______?,,,
+Done,,,,Reply,,"1. Wala pa isang minuto
+2. Wala pa isang oras
+3. Wala pa isang araw
+4. Wala pa isang buwan
+5. Higit sa 1 buwan
+6. Hindi ko maalala","1. Wala pang isang minuto
+2. Wala pang isang oras
+3. Wala pang isang araw
+4. Wala pang isang buwan
+5. Higit sa isang buwan
+6. Hindi ko maalala","1. Wala pang isang minuto
+2. Wala pang isang oras
+3. Wala pang isang araw
+4. Wala pang isang buwan
+5. Lagpas ng isang buwan
+6. Hindi matandaan","1. Wala pay usa ka minuto
+2. Wala pay usa ka oras
+3. Wala pay usa ka adlaw
+4. Wala pay usa ka buwan
+5. Lapas na sa usa ka buwan
+6. Wala nako nakahinumdum",,,
+Done,,mtth-lasttime,232,Question,,Kailan mo huling naranasan ito?,,Kailan mo ito huling naranasan?,Kanus a ni nimo katapusang nabati?,,,
+Done,,,,Reply,,"1. Ngayon / kanina lang
+2. Kahapon
+3. 2 - 4 araw nakalipas
+4. 5 - 7 araw nakalipas
+5. Higit sa 1 linggo
+6. Higit sa 1 buwan
+7. Hindi ko maalala",,"1. Ngayon/ kanina lang
+2. Kahapon
+3. Nakaraang 2-4 araw 
+4. Nakaraang 5-7 araw 
+5. Lagpas ng isang linggo 
+6. Lagpas ng isang buwan
+7. Hindi sigurado/ hindi matandaan","1. Karon o ganina lang
+2. Gahapon
+3. Sa milabay na 2-4 ka adlaw 
+4. Sa milabay na 5-7 ka adlaw 
+5. Lapas na sa usa ka semana
+6. Lapas na sa usa ka buwan
+7. Wala nako nakahinumdum",,,
+Done,,mtth-x-otherinterventions,233,Question,,Ano pa ang ibang ginawa mong interbensyon para maibsan ang iyong ____?,Ano pa ang ibang interbensyon na ginawa mo para maibsan ang ____?,Ano pang ginawa mong ibang paraan para mabawasan ang ________? ,Unsa pay lain nimong gibuhat para makuhaan ang ________?,,,
+Done,,,,Reply,,,,,,,,
+Done,,mtth-x-painintensity,234,Question,,"Mga 0 hanggang 10, paano mo marerate ang iyong naramdamang sakit dahil sa _____?","Mula 0 hanggang 10, kung saan 10 ang pinakamataas, gaano kasakit?",Gaano katindi ang sakit kung 10 ang pinakamasakit?,"Unsa ang kasakit nga imong nabati kung mag score tag 0 hangtod sa 10, 10 ang pinakasakit?",,,
+Done,,,,Reply,,"1. 0
+2. 1
+3. 2
+4. 3
+5. 4
+6. 5
+7. 6
+8. 7
+9. 8
+10. 9
+11. 10
+12. Hindi ko maalala",,"
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. Hindi matandaan","
+1. 1
+2. 2
+3. 3
+4. 4
+5. 5
+6. 6
+7. 7
+8. 8
+9. 9
+10. 10
+11. wala nako nakahinumdum",,,
+Done,,mtth-x-relief,235,Question,,"Base sa mga nabanggit mo, gaano katagal bago naibsan ang sakit dulot ng ____?",,Natatandaan mo ba kung gaano katagal bago nabawasan/ nawala ang sakit dahil sa ______?,Nakahinumdum baka ug unsa kadugay usa nakuhaan ang kasakit sa ______?,,,
+Done,,,,Reply,,"1. Mga segundo lang
+2. Mga minuto lang
+3. Mga ilang oras lang
+4. Higit sa 24 oras
+5. Hindi ko maalala",,"1. Ilang segundo lang
+2. Ilang minuto lang
+3. Umabot ng ilang oras                                                                      4. Lumagpas ng 24 oras
+5. Hindi sigurado/ hindi matandaan","1. pipila ka segundo lang
+2. pipila ka minuto lang
+3. miabot ug pipila ka oras                                                                     4. nilapas ug 24 ka oras
+5. Wala nako nakahinumdum",,,
+Done,,stg-gargleantisepticmedication,236,Question,,Ilang beses ka nagmumog ng gamot tulad ng Bactidol o Betadine?,,Ilang beses kang nagmumog ng gamot katulad ng Bactidol o Betadine?,Kapila ka maglimogmog ug tambal pareha sa Bactidol o Betadine?,,,
+Done,,,,Reply,,"1. 0
+2. 1 - 3
+3. 4 - 6
+4. 7 pataas
+5. Hindi ko maalala",,"1. 1-3 beses
+2. 4-6 beses
+3. 7 beses - pataas 
+4. Hindi nagmumog ng kahit anong gamot","1. ka 1-3
+2. ka 4-6
+3. ka 7- pataas 
+4. Wala ko galimogmog ug bisag unsa na tambal",,,
+Done,,stg-takelozenges,237,Question,,Ilang beses ka nag-take ng lozenges tulad ng Strepsils?,Ilang beses kang uminom ng lozenge tulad ng Strepsils?,Ilang beses kang uminom ng gamot para sa nanakit mong lalamunan (hal. Strepsils)?,Kapila ka miinum ug tambal para sa sakit sa tutunlan(ex. Strepsils)?,,,
+Done,,,,,,,,"1. 1-3 beses
+2. 4-6 beses
+3. 7 beses - pataas 
+4. Walang ininom na kahit anong gamot","1. ka 1-3 
+2. ka 4-6
+3. ka 7 - pataas 
+4. Walay giinum na bisag unsa na tambal",,,
+No Key,,tc-lastcheckup,239,Question,  ,Kailan mo pinatingin ang iyong ngipin na may cavities sa dentista?,,Kailan ka nagpatingin sa dentista para sa sira mong ngipin?,Kanus a ka nagpatan aw sa dentista para sa imong dunot nga ngipon?,,,
+Done,,tc-difficulttimechewing,238,Question,,Nahirapan ka ba sa pagnguya?,,Nahirapan ka bang ngumuya?,Maglisod baka ug usap?,,,
+Done,,,,Reply,,"1. Oo
+2. Hindi
+3. Minsan
+4. Hindi ko maalala",,"1. Oo
+2. Hindi
+3. Medyo
+4. Hindi sigurado/ hindi matandaan","1. Oo
+2. Dili
+3. Medyo
+4. Wala nako nakahinumdum",,,
+Done,,tc-operationtype,240,Question,,,,Ano ang pinagawa mo sa dentista?,Unsay imong gipabuhat sa dentitsta?,,,
+Done,,,,Reply,,"1. Pasta
+2. Paggamot ng root canal
+3. Pag-bunot ng ngipin",,"1. Nagpalagay ng pasta
+2. Nagpagamot ng root canal
+3. Nagpabunot ng sirang ngipin","1. Nagpa pasta
+2. Nagtambal sa root canal
+3. Nagpaibot ug ngipon",,,
+Done,,tc-relief,241,Question,,Gaano katagal bago naibsan ang sakit dulot ng pagtanggal sa iyong cavities?,,Gaano katagal mo tiniis ang pananakit ng sira mong ngipin?,Pila ka adlaw nimo kayang agwantahon ang kasakit sa imong ngipon?,,,
+Done,,,,Reply,,"1. Wala pa isang araw
+2. Wala pa isang linggo
+3. Wala pa isang buwan
+4. Higit sa 1 buwan
+5. Hindi ko maalala","1. Wala pang isang araw
+2. Wala pang isang linggo
+3. Wala pang isang buwan
+4. Higit sa isang buwan
+5. Hindi ko maalala","1. Wala pang isang araw
+2. Wala pang isang linggo
+3. Wala pang isang buwan
+4. Lumagpas ng isang buwan
+5. Hindi matandaan","1. Walay usa ka adlaw
+2. Walay usa ka semana
+3. Walay usa ka buwan
+4. Lapas usa ka buwan
+5. Wala nako nakahinumdum",,,
